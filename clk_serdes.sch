@@ -1,0 +1,216 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Amphenol:10144518-101802LF P1
+U 1 1 5E836138
+P 2000 3800
+F 0 "P1" H 2000 6568 50  0000 C CNN
+F 1 "10144518-101802LF" H 2000 6477 50  0000 C CNN
+F 2 "Amphenol:10144518-101802LF" H 2000 3700 50  0001 L CNN
+F 3 "" H 2000 3600 50  0001 L CNN
+	1    2000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L IDT:5P49V6965 U2
+U 1 1 5E83F21F
+P 6600 2350
+F 0 "U2" H 6050 1400 50  0000 C CNN
+F 1 "5P49V6965" H 7000 1400 50  0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-24-1EP_4x4mm_Pitch0.5mm" H 6600 2450 50  0001 C CNN
+F 3 "" H 6600 2450 50  0001 C CNN
+	1    6600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MH1
+U 1 1 5E8464A8
+P 900 7250
+F 0 "MH1" H 1000 7253 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1000 7208 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_ISO14580_Pad" H 900 7250 50  0001 C CNN
+F 3 "~" H 900 7250 50  0001 C CNN
+	1    900  7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MH2
+U 1 1 5E847C0B
+P 1250 7250
+F 0 "MH2" H 1350 7253 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1350 7208 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_ISO14580_Pad" H 1250 7250 50  0001 C CNN
+F 3 "~" H 1250 7250 50  0001 C CNN
+	1    1250 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MH3
+U 1 1 5E8487CA
+P 1600 7250
+F 0 "MH3" H 1700 7253 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1700 7208 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_ISO14580_Pad" H 1600 7250 50  0001 C CNN
+F 3 "~" H 1600 7250 50  0001 C CNN
+	1    1600 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MH4
+U 1 1 5E84954B
+P 1950 7250
+F 0 "MH4" H 2050 7253 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2050 7208 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_ISO14580_Pad" H 1950 7250 50  0001 C CNN
+F 3 "~" H 1950 7250 50  0001 C CNN
+	1    1950 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5E8498A4
+P 900 7450
+F 0 "#PWR0101" H 900 7200 50  0001 C CNN
+F 1 "GND" H 905 7277 50  0000 C CNN
+F 2 "" H 900 7450 50  0001 C CNN
+F 3 "" H 900 7450 50  0001 C CNN
+	1    900  7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  7350 900  7400
+Wire Wire Line
+	1250 7350 1250 7400
+Wire Wire Line
+	1250 7400 900  7400
+Connection ~ 900  7400
+Wire Wire Line
+	900  7400 900  7450
+Wire Wire Line
+	1600 7350 1600 7400
+Wire Wire Line
+	1600 7400 1250 7400
+Connection ~ 1250 7400
+Wire Wire Line
+	1950 7350 1950 7400
+Wire Wire Line
+	1950 7400 1600 7400
+Connection ~ 1600 7400
+$Comp
+L CologneChip:CCGM1A1 U1
+U 1 1 5E90D727
+P 9500 2000
+F 0 "U1" H 9500 2466 50  0000 C CNN
+F 1 "CCGM1A1" H 9500 2375 50  0000 C CNN
+F 2 "Package_BGA:BGA-320_15.0x15.0mm_Layout18x18_P0.8mm" H 9650 2550 50  0001 C CNN
+F 3 "https://colognechip.com/docs/gatemate-ccgm1a-datasheet.pdf" H 9500 2300 50  0001 C CNN
+	1    9500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal_GND24 Y1
+U 1 1 5E84012C
+P 4550 2250
+F 0 "Y1" H 4050 2500 50  0000 L CNN
+F 1 "NX3225SA" H 4050 2400 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 4550 2250 50  0001 C CNN
+F 3 "~" H 4550 2250 50  0001 C CNN
+	1    4550 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2250 4850 2250
+Wire Wire Line
+	4400 2250 4200 2250
+$Comp
+L power:GND #PWR03
+U 1 1 5E842625
+P 4200 2600
+F 0 "#PWR03" H 4200 2350 50  0001 C CNN
+F 1 "GND" H 4205 2427 50  0000 C CNN
+F 2 "" H 4200 2600 50  0001 C CNN
+F 3 "" H 4200 2600 50  0001 C CNN
+	1    4200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5E8431F1
+P 4850 2400
+F 0 "C2" H 4942 2446 50  0000 L CNN
+F 1 "DNI" H 4942 2355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4850 2400 50  0001 C CNN
+F 3 "~" H 4850 2400 50  0001 C CNN
+	1    4850 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5E8437FD
+P 4200 2400
+F 0 "C1" H 4292 2446 50  0000 L CNN
+F 1 "DNI" H 4292 2355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4200 2400 50  0001 C CNN
+F 3 "~" H 4200 2400 50  0001 C CNN
+	1    4200 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2300 4200 2250
+Connection ~ 4200 2250
+Wire Wire Line
+	4850 2300 4850 2250
+Wire Wire Line
+	4200 2500 4200 2550
+Wire Wire Line
+	4200 2550 4550 2550
+Wire Wire Line
+	4550 2550 4550 2450
+Connection ~ 4200 2550
+Wire Wire Line
+	4200 2550 4200 2600
+Wire Wire Line
+	4550 2550 4850 2550
+Wire Wire Line
+	4850 2550 4850 2500
+Connection ~ 4550 2550
+Wire Wire Line
+	4550 2050 4550 2000
+Wire Wire Line
+	4550 2000 5100 2000
+Wire Wire Line
+	5100 2000 5100 2550
+Wire Wire Line
+	5100 2550 4850 2550
+Connection ~ 4850 2550
+Wire Wire Line
+	4850 2250 5800 2250
+Connection ~ 4850 2250
+Wire Wire Line
+	3950 2250 3950 1900
+Wire Wire Line
+	3950 1900 5250 1900
+Wire Wire Line
+	5250 1900 5250 2150
+Wire Wire Line
+	3950 2250 4200 2250
+Wire Wire Line
+	5250 2150 5800 2150
+Text Label 5350 2150 0    50   ~ 0
+XIN
+Text Label 5350 2250 0    50   ~ 0
+XOUT
+$EndSCHEMATC
