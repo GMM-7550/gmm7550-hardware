@@ -1,0 +1,70 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Amphenol:10144518-061802LF P?
+U 1 1 5FDDB825
+P 5100 3000
+AR Path="/5E839D8B/5FDDB825" Ref="P?"  Part="1" 
+AR Path="/5FDA34FC/5FDDB825" Ref="P1"  Part="1" 
+F 0 "P1" H 5100 4668 50  0000 C CNN
+F 1 "10144518-061802LF" H 5100 4577 50  0000 C CNN
+F 2 "Amphenol:10144518-061802LF" H 5100 2900 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/10144518-061802LF.pdf" H 5100 2800 50  0001 L CNN
+	1    5100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amphenol:10144518-061802LF P?
+U 1 1 5FDDB82B
+P 7600 3000
+AR Path="/5E839D8B/5FDDB82B" Ref="P?"  Part="1" 
+AR Path="/5FDA34FC/5FDDB82B" Ref="P2"  Part="1" 
+F 0 "P2" H 7600 4668 50  0000 C CNN
+F 1 "10144518-061802LF" H 7600 4577 50  0000 C CNN
+F 2 "Amphenol:10144518-061802LF" H 7600 2900 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/10144518-061802LF.pdf" H 7600 2800 50  0001 L CNN
+	1    7600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amphenol:10144518-061802LF P?
+U 1 1 5FDDB831
+P 10100 3000
+AR Path="/5E839D8B/5FDDB831" Ref="P?"  Part="1" 
+AR Path="/5FDA34FC/5FDDB831" Ref="P3"  Part="1" 
+F 0 "P3" H 10100 4668 50  0000 C CNN
+F 1 "10144518-061802LF" H 10100 4577 50  0000 C CNN
+F 2 "Amphenol:10144518-061802LF" H 10100 2900 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/10144518-061802LF.pdf" H 10100 2800 50  0001 L CNN
+	1    10100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amphenol:10144518-101802LF P?
+U 1 1 5FDDB837
+P 2100 4100
+AR Path="/5E836017/5FDDB837" Ref="P?"  Part="1" 
+AR Path="/5E920AD5/5FDDB837" Ref="P?"  Part="1" 
+AR Path="/5E839D8B/5FDDB837" Ref="P?"  Part="1" 
+AR Path="/5FDA34FC/5FDDB837" Ref="P4"  Part="1" 
+F 0 "P4" H 2100 6868 50  0000 C CNN
+F 1 "10144518-101802LF" H 2100 6777 50  0000 C CNN
+F 2 "Amphenol:10144518-101802LF" H 2100 4000 50  0001 L CNN
+F 3 "" H 2100 3900 50  0001 L CNN
+	1    2100 4100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

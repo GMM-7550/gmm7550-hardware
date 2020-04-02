@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
-Title ""
-Date ""
-Rev ""
+Sheet 4 7
+Title "GateMate Module 50"
+Date "2020-03-30"
+Rev "0.1"
 Comp ""
 Comment1 ""
 Comment2 ""
