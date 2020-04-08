@@ -268,9 +268,6 @@ Wire Wire Line
 	5000 4600 7600 4600
 Wire Wire Line
 	5000 4700 7900 4700
-Connection ~ 7950 4700
-Wire Wire Line
-	7950 4700 8150 4700
 Wire Wire Line
 	7600 4600 7950 4600
 $Comp

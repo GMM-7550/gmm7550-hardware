@@ -2,4 +2,5 @@
   (lib (name Amphenol)(type Legacy)(uri ${KIPRJMOD}/Amphenol.lib)(options "")(descr ""))
   (lib (name IDT)(type Legacy)(uri ${KIPRJMOD}/../idt.lib)(options "")(descr ""))
   (lib (name CologneChip)(type Legacy)(uri ${KIPRJMOD}/../../kicad/kicad-symbols/FPGA_CologneChip_GateMate.lib)(options "")(descr ""))
+  (lib (name gmm)(type Legacy)(uri ${KIPRJMOD}/gmm.lib)(options "")(descr ""))
 )
