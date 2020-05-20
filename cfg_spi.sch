@@ -17,6 +17,8 @@ $Comp
 L CologneChip:CCGM1A1 U1
 U 2 1 5E920CB6
 P 4850 2200
+AR Path="/5E920CB6" Ref="U1"  Part="2" 
+AR Path="/5E920AD5/5E920CB6" Ref="U1"  Part="2" 
 F 0 "U1" H 4000 3050 50  0000 C CNN
 F 1 "CCGM1A1" H 5600 3050 50  0000 C CNN
 F 2 "Package_BGA:BGA-320_15.0x15.0mm_Layout18x18_P0.8mm" H 5000 2750 50  0001 C CNN
@@ -1587,4 +1589,151 @@ Wire Wire Line
 Connection ~ 2700 2800
 Wire Wire Line
 	2400 2600 3750 2600
+$Comp
+L Device:C_Small C?
+U 1 1 5F22AC1D
+P 4450 950
+AR Path="/5E836017/5F22AC1D" Ref="C?"  Part="1" 
+AR Path="/5E928EDB/5F22AC1D" Ref="C?"  Part="1" 
+AR Path="/5E920AD5/5F22AC1D" Ref="C66"  Part="1" 
+F 0 "C66" H 4500 1050 50  0000 L CNN
+F 1 "0.01uF" H 4500 850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4450 950 50  0001 C CNN
+F 3 "~" H 4450 950 50  0001 C CNN
+	1    4450 950 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F22AC23
+P 4050 950
+AR Path="/5E836017/5F22AC23" Ref="C?"  Part="1" 
+AR Path="/5E928EDB/5F22AC23" Ref="C?"  Part="1" 
+AR Path="/5E920AD5/5F22AC23" Ref="C65"  Part="1" 
+F 0 "C65" H 4100 1050 50  0000 L CNN
+F 1 "0.01uF" H 4100 850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4050 950 50  0001 C CNN
+F 3 "~" H 4050 950 50  0001 C CNN
+	1    4050 950 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F22AC29
+P 3650 950
+AR Path="/5E836017/5F22AC29" Ref="C?"  Part="1" 
+AR Path="/5E928EDB/5F22AC29" Ref="C?"  Part="1" 
+AR Path="/5E920AD5/5F22AC29" Ref="C64"  Part="1" 
+F 0 "C64" H 3700 1050 50  0000 L CNN
+F 1 "0.01uF" H 3700 850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3650 950 50  0001 C CNN
+F 3 "~" H 3650 950 50  0001 C CNN
+	1    3650 950 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F22AC2F
+P 3250 950
+AR Path="/5E836017/5F22AC2F" Ref="C?"  Part="1" 
+AR Path="/5E928EDB/5F22AC2F" Ref="C?"  Part="1" 
+AR Path="/5E920AD5/5F22AC2F" Ref="C63"  Part="1" 
+F 0 "C63" H 3300 1050 50  0000 L CNN
+F 1 "0.01uF" H 3300 850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3250 950 50  0001 C CNN
+F 3 "~" H 3250 950 50  0001 C CNN
+	1    3250 950 
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 800  3250 850 
+Wire Wire Line
+	3650 800  3650 850 
+Connection ~ 3650 800 
+Wire Wire Line
+	3650 800  3250 800 
+Wire Wire Line
+	4050 800  4050 850 
+Connection ~ 4050 800 
+Wire Wire Line
+	4050 800  3650 800 
+Wire Wire Line
+	4450 800  4450 850 
+Connection ~ 4450 800 
+Wire Wire Line
+	4450 800  4050 800 
+Wire Wire Line
+	4450 1050 4450 1100
+Wire Wire Line
+	4450 1100 4050 1100
+Wire Wire Line
+	3250 1050 3250 1100
+Wire Wire Line
+	3650 1050 3650 1100
+Connection ~ 3650 1100
+Wire Wire Line
+	3650 1100 3250 1100
+Wire Wire Line
+	4050 1050 4050 1100
+Connection ~ 4050 1100
+Wire Wire Line
+	4050 1100 3650 1100
+$Comp
+L Device:C_Small C?
+U 1 1 5F22AC48
+P 2850 950
+AR Path="/5E836017/5F22AC48" Ref="C?"  Part="1" 
+AR Path="/5E928EDB/5F22AC48" Ref="C?"  Part="1" 
+AR Path="/5E920AD5/5F22AC48" Ref="C62"  Part="1" 
+F 0 "C62" H 2900 1050 50  0000 L CNN
+F 1 "1.0uF" H 2900 850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2850 950 50  0001 C CNN
+F 3 "~" H 2850 950 50  0001 C CNN
+	1    2850 950 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F22AC4E
+P 2850 1150
+AR Path="/5E928EDB/5F22AC4E" Ref="#PWR?"  Part="1" 
+AR Path="/5E920AD5/5F22AC4E" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 2850 900 50  0001 C CNN
+F 1 "GND" H 2700 1100 50  0000 C CNN
+F 2 "" H 2850 1150 50  0001 C CNN
+F 3 "" H 2850 1150 50  0001 C CNN
+	1    2850 1150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 800  2850 800 
+Wire Wire Line
+	2850 800  2850 850 
+Connection ~ 3250 800 
+Wire Wire Line
+	3250 1100 2850 1100
+Wire Wire Line
+	2850 1100 2850 1050
+Connection ~ 3250 1100
+Wire Wire Line
+	2850 1150 2850 1100
+Connection ~ 2850 1100
+Wire Wire Line
+	4850 1200 4850 800 
+Wire Wire Line
+	4850 800  4450 800 
+$Comp
+L power:+2V5 #PWR018
+U 1 1 5F296F1B
+P 2850 750
+F 0 "#PWR018" H 2850 600 50  0001 C CNN
+F 1 "+2V5" H 2865 923 50  0000 C CNN
+F 2 "" H 2850 750 50  0001 C CNN
+F 3 "" H 2850 750 50  0001 C CNN
+	1    2850 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 800  2850 750 
+Connection ~ 2850 800 
 $EndSCHEMATC
