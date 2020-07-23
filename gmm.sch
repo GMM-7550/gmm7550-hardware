@@ -14,8 +14,8 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Bitmap
-Pos 7550 6850
-Scale 0.250000
+Pos 1900 1000
+Scale 0.400000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 04 CC 00 00 02 86 08 06 00 00 00 B6 A7 07 
 53 00 00 00 04 73 42 49 54 08 08 08 08 7C 08 64 88 00 00 00 09 70 48 59 73 00 00 0E 74 00 00 0E 
@@ -1227,4 +1227,121 @@ U 5FDA34FC
 F0 "IO Connectors" 50
 F1 "connectors.sch" 50
 $EndSheet
+Text Notes 3100 1250 0    157  ~ 31
+Cologne Chip GateMate FPGA Module\nfor CCGM1A 1/2/4 (BGA320, 15x15 mm) 
+Text Notes 1100 1800 0    100  ~ 20
+Revision
+Text Notes 2250 1800 0    100  ~ 20
+Date
+Text Notes 3150 1800 0    100  ~ 20
+Notes
+Text Notes 1300 2250 0    100  ~ 0
+0.5
+Text Notes 1900 2250 0    100  ~ 0
+2020-07-08
+Text Notes 3150 2250 0    100  ~ 0
+Initial release of the schematic
+Wire Notes Line width 8 style solid
+	7100 1500 7100 2850
+Wire Notes Line width 8 style solid
+	1000 1500 1000 2850
+Wire Notes Line width 8 style solid
+	1850 1500 1850 2850
+Wire Notes Line width 8 style solid
+	3000 1500 3000 2850
+Text Notes 1300 2700 0    100  ~ 0
+1.0
+Text Notes 1900 2700 0    100  ~ 0
+2020-xx-xx
+Text Notes 3150 2750 0    100  ~ 0
+Module V1.0 released to manufacturing\n(I/O and BoM changes back ported from PCB)
+Wire Notes Line width 8 style solid
+	1000 2850 7100 2850
+Wire Notes Line width 8 style solid
+	1000 1500 7100 1500
+Wire Notes Line width 8 style solid
+	1000 1950 7100 1950
+Wire Notes Line width 8 style solid
+	1000 2400 7100 2400
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5F47613A
+P 4050 6100
+F 0 "FID1" H 4135 6100 50  0000 L CNN
+F 1 "Fiducial" H 4135 6055 50  0001 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 4050 6100 50  0001 C CNN
+F 3 "~" H 4050 6100 50  0001 C CNN
+	1    4050 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 5F4766E6
+P 4500 6100
+F 0 "FID2" H 4585 6100 50  0000 L CNN
+F 1 "Fiducial" H 4585 6055 50  0001 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 4500 6100 50  0001 C CNN
+F 3 "~" H 4500 6100 50  0001 C CNN
+	1    4500 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 5F476816
+P 4050 6350
+F 0 "FID3" H 4135 6350 50  0000 L CNN
+F 1 "Fiducial" H 4135 6305 50  0001 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 4050 6350 50  0001 C CNN
+F 3 "~" H 4050 6350 50  0001 C CNN
+	1    4050 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID4
+U 1 1 5F4775AA
+P 4050 6700
+F 0 "FID4" H 4135 6700 50  0000 L CNN
+F 1 "Fiducial" H 4135 6655 50  0001 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 4050 6700 50  0001 C CNN
+F 3 "~" H 4050 6700 50  0001 C CNN
+	1    4050 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID5
+U 1 1 5F4775B0
+P 4500 6700
+F 0 "FID5" H 4585 6700 50  0000 L CNN
+F 1 "Fiducial" H 4585 6655 50  0001 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 4500 6700 50  0001 C CNN
+F 3 "~" H 4500 6700 50  0001 C CNN
+	1    4500 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID6
+U 1 1 5F4775B6
+P 4050 6950
+F 0 "FID6" H 4135 6950 50  0000 L CNN
+F 1 "Fiducial" H 4135 6905 50  0001 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 4050 6950 50  0001 C CNN
+F 3 "~" H 4050 6950 50  0001 C CNN
+	1    4050 6950
+	1    0    0    -1  
+$EndComp
+Text Notes 7800 7050 0    100  ~ 0
+Copyright (c) 2020  Anton Kuzmin\nLicensed under CERN-OHL-P v2\nhttps://github.com/ak-fau/gmm.git
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO1
+U 1 1 5F479D1D
+P 7350 6850
+F 0 "#LOGO1" H 7350 7125 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 7350 6625 50  0001 C CNN
+F 2 "" H 7350 6850 50  0001 C CNN
+F 3 "~" H 7350 6850 50  0001 C CNN
+	1    7350 6850
+	1    0    0    -1  
+$EndComp
+Text Notes 7000 6400 0    79   ~ 0
+You may redistribute and modify this documentation\nand make products using it under the terms of\nthe CERN-OHL-P v2 (https:/cern.ch/cern-ohl).\n\nThis documentation is distributed WITHOUT ANY EXPRESS\nOR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY,\nSATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.\n\nPlease see the CERN-OHL-P v2 for applicable conditions
 $EndSCHEMATC
