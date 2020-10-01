@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 7
-Title "GateMate FPGA Module"
-Date "2020-07-08"
-Rev "0.5"
+Title "GateMate FPGA Module: GMM-7550"
+Date "2020-10-01"
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -389,19 +389,6 @@ F 1 "10144518-061802LF" H 2150 3827 50  0000 C CNN
 F 2 "Amphenol:10144518-061802LF" H 2150 2150 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/1/10144518-061802LF.pdf" H 2150 2050 50  0001 L CNN
 	1    2150 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amphenol:10144518-061802LF P?
-U 1 1 6166A43A
-P 3450 5800
-AR Path="/5E839D8B/6166A43A" Ref="P?"  Part="1" 
-AR Path="/5FDA34FC/6166A43A" Ref="P5"  Part="1" 
-F 0 "P5" H 3450 7468 50  0000 C CNN
-F 1 "10144518-061802LF" H 3450 7377 50  0000 C CNN
-F 2 "Amphenol:10144518-061802LF" H 3450 5700 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/10144518-061802LF.pdf" H 3450 5600 50  0001 L CNN
-	1    3450 5800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1357,7 +1344,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 2350 9250 2350
 Text Notes 7800 7050 0    100  ~ 0
-Copyright (c) 2020  Anton Kuzmin\nLicensed under CERN-OHL-P v2\nhttps://github.com/ak-fau/gmm.git
+Copyright (c) 2020  Anton Kuzmin\nLicensed under CERN-OHL-P v2\nhttps://github.com/ak-fau/gmm7550.git
 $Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO?
 U 1 1 5F2EB6F5
@@ -1371,4 +1358,324 @@ F 3 "~" H 7350 6850 50  0001 C CNN
 	1    7350 6850
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5F7A7D59
+P 3000 7500
+F 0 "#PWR0113" H 3000 7250 50  0001 C CNN
+F 1 "GND" H 3005 7327 50  0000 C CNN
+F 2 "" H 3000 7500 50  0001 C CNN
+F 3 "" H 3000 7500 50  0001 C CNN
+	1    3000 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5F7A886F
+P 3900 7500
+F 0 "#PWR0114" H 3900 7250 50  0001 C CNN
+F 1 "GND" H 3905 7327 50  0000 C CNN
+F 2 "" H 3900 7500 50  0001 C CNN
+F 3 "" H 3900 7500 50  0001 C CNN
+	1    3900 7500
+	1    0    0    -1  
+$EndComp
+Text GLabel 3950 7100 2    50   UnSpc ~ 0
+VCLK
+Text GLabel 3950 6900 2    50   Input ~ 0
+CLK3_P
+Text GLabel 3950 7000 2    50   Input ~ 0
+CLK3_N
+Text GLabel 3950 7300 2    50   Input ~ 0
+CLK4_P
+Text GLabel 3950 7200 2    50   Input ~ 0
+CLK4_N
+$Comp
+L Amphenol:10144518-061802LF P?
+U 1 1 6166A43A
+P 3450 5800
+AR Path="/5E839D8B/6166A43A" Ref="P?"  Part="1" 
+AR Path="/5FDA34FC/6166A43A" Ref="P5"  Part="1" 
+F 0 "P5" H 3450 7468 50  0000 C CNN
+F 1 "10144518-061802LF" H 3450 7377 50  0000 C CNN
+F 2 "Amphenol:10144518-061802LF" H 3450 5700 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/10144518-061802LF.pdf" H 3450 5600 50  0001 L CNN
+	1    3450 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 7500 3000 7400
+Wire Wire Line
+	3000 7400 3050 7400
+Wire Wire Line
+	3900 7500 3900 7400
+Wire Wire Line
+	3900 7400 3850 7400
+Connection ~ 3900 7400
+Connection ~ 3000 7400
+Wire Wire Line
+	2950 7300 3050 7300
+Text GLabel 2950 7200 0    50   Output ~ 0
+CLKI_P
+Text GLabel 2950 7300 0    50   Output ~ 0
+CLKI_N
+Text GLabel 3950 6700 2    50   Output ~ 0
+RX_P
+Text GLabel 3950 6600 2    50   Output ~ 0
+RX_N
+Text GLabel 2950 6700 0    50   Input ~ 0
+TX_P
+Text GLabel 2950 6600 0    50   Input ~ 0
+TX_N
+Text GLabel 2950 5500 0    50   Input ~ 0
+JTAG_TDO
+Text GLabel 2950 5400 0    50   Output ~ 0
+JTAG_TDI
+Text GLabel 2950 5300 0    50   Output ~ 0
+JTAG_TMS
+Text GLabel 2950 5200 0    50   Output ~ 0
+JTAG_TCK
+Text GLabel 2950 6400 0    50   Input ~ 0
+RST_N
+Text GLabel 2950 6300 0    50   Output ~ 0
+MR_N
+Text GLabel 3950 4600 2    50   BiDi ~ 0
+SDA
+Text GLabel 3950 4700 2    50   Output ~ 0
+SCL
+Text GLabel 2950 4800 0    50   BiDi ~ 0
+SPI_D0
+Text GLabel 3950 5000 2    50   BiDi ~ 0
+SPI_D1
+Text GLabel 3950 4900 2    50   BiDi ~ 0
+SPI_CS_N
+Text GLabel 2950 4600 0    50   BiDi ~ 0
+SPI_CLK
+Text GLabel 2950 4900 0    50   BiDi ~ 0
+SPI_D2
+Text GLabel 2950 5000 0    50   BiDi ~ 0
+SPI_D3
+Wire Wire Line
+	3000 4500 3050 4500
+Wire Wire Line
+	3900 4500 3850 4500
+Wire Wire Line
+	3850 4600 3950 4600
+Wire Wire Line
+	3850 4700 3950 4700
+Wire Wire Line
+	3000 4700 3050 4700
+Connection ~ 3000 4700
+Wire Wire Line
+	3000 4700 3000 4500
+Wire Wire Line
+	3850 4800 3900 4800
+Connection ~ 3900 4800
+Wire Wire Line
+	3900 4800 3900 4500
+Wire Wire Line
+	3850 4900 3950 4900
+Wire Wire Line
+	2950 4600 3050 4600
+Wire Wire Line
+	2950 4800 3050 4800
+Wire Wire Line
+	2950 4900 3050 4900
+Wire Wire Line
+	3850 5000 3950 5000
+Wire Wire Line
+	2950 5000 3050 5000
+Wire Wire Line
+	3000 5100 3050 5100
+Connection ~ 3000 5100
+Wire Wire Line
+	3000 5100 3000 4700
+Wire Wire Line
+	2950 5200 3050 5200
+Wire Wire Line
+	2950 5300 3050 5300
+Text GLabel 3950 5100 2    50   Input ~ 0
+SPI_FWD
+Wire Wire Line
+	3900 4800 3900 5200
+Wire Wire Line
+	3850 5200 3900 5200
+Connection ~ 3900 5200
+Wire Wire Line
+	3850 5100 3950 5100
+Wire Wire Line
+	2950 5400 3050 5400
+Wire Wire Line
+	3900 5200 3900 5500
+Wire Wire Line
+	3000 5100 3000 5600
+Wire Wire Line
+	2950 5500 3050 5500
+Wire Wire Line
+	3000 5600 3050 5600
+Connection ~ 3000 5600
+Text GLabel 3950 5400 2    50   Input ~ 0
+CFG_DONE
+Text GLabel 3950 5300 2    50   Input ~ 0
+CFG_FAILED_N
+Wire Wire Line
+	3850 5300 3950 5300
+Wire Wire Line
+	3850 5400 3950 5400
+Wire Wire Line
+	3850 5500 3900 5500
+Connection ~ 3900 5500
+$Comp
+L power:+2V5 #PWR0117
+U 1 1 611BBE00
+P 4650 5600
+F 0 "#PWR0117" H 4650 5450 50  0001 C CNN
+F 1 "+2V5" H 4665 5773 50  0000 C CNN
+F 2 "" H 4650 5600 50  0001 C CNN
+F 3 "" H 4650 5600 50  0001 C CNN
+	1    4650 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 5500 3900 6200
+Wire Wire Line
+	3000 5600 3000 6200
+Wire Wire Line
+	3000 6500 3050 6500
+Connection ~ 3000 6500
+Wire Wire Line
+	3900 6500 3850 6500
+Connection ~ 3900 6500
+Wire Wire Line
+	3950 6300 3850 6300
+Wire Wire Line
+	3900 6200 3850 6200
+Connection ~ 3900 6200
+Wire Wire Line
+	3900 6200 3900 6500
+Wire Wire Line
+	2950 6300 3050 6300
+Wire Wire Line
+	2950 6400 3050 6400
+Text GLabel 4650 5700 2    50   UnSpc ~ 0
+V_IN
+Text GLabel 2250 5700 0    50   UnSpc ~ 0
+V_IN
+Wire Wire Line
+	2250 5700 2950 5700
+Wire Wire Line
+	3050 5800 2950 5800
+Wire Wire Line
+	2950 5800 2950 5700
+Connection ~ 2950 5700
+Wire Wire Line
+	2950 5700 3050 5700
+Wire Wire Line
+	3050 5900 2950 5900
+Wire Wire Line
+	2950 5900 2950 5800
+Connection ~ 2950 5800
+Wire Wire Line
+	3050 6000 2950 6000
+Wire Wire Line
+	2950 6000 2950 5900
+Connection ~ 2950 5900
+Wire Wire Line
+	3050 6100 2950 6100
+Wire Wire Line
+	2950 6100 2950 6000
+Connection ~ 2950 6000
+Wire Wire Line
+	3850 5700 3950 5700
+Wire Wire Line
+	3850 5800 3950 5800
+Wire Wire Line
+	3950 5800 3950 5700
+Wire Wire Line
+	3850 5900 3950 5900
+Wire Wire Line
+	3950 5900 3950 5800
+Connection ~ 3950 5800
+Wire Wire Line
+	3850 6000 3950 6000
+Wire Wire Line
+	3950 6000 3950 5900
+Connection ~ 3950 5900
+Wire Wire Line
+	3850 6100 3950 6100
+Wire Wire Line
+	3950 6100 3950 6000
+Connection ~ 3950 6000
+Wire Wire Line
+	3850 5600 4650 5600
+Wire Wire Line
+	3950 5700 4650 5700
+Connection ~ 3950 5700
+Wire Wire Line
+	3000 6500 3000 6800
+Text GLabel 2950 6900 0    50   Input ~ 0
+CLK2_P
+Text GLabel 2950 7000 0    50   Input ~ 0
+CLK2_N
+Wire Wire Line
+	3000 6200 3050 6200
+Connection ~ 3000 6200
+Wire Wire Line
+	3000 6200 3000 6500
+$Comp
+L power:+2V5 #PWR0129
+U 1 1 6219789A
+P 4600 6400
+F 0 "#PWR0129" H 4600 6250 50  0001 C CNN
+F 1 "+2V5" H 4615 6573 50  0000 C CNN
+F 2 "" H 4600 6400 50  0001 C CNN
+F 3 "" H 4600 6400 50  0001 C CNN
+	1    4600 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 6600 3050 6600
+Wire Wire Line
+	2950 6700 3050 6700
+Wire Wire Line
+	2950 6900 3050 6900
+Wire Wire Line
+	2950 7000 3050 7000
+Wire Wire Line
+	3000 7100 3050 7100
+Connection ~ 3000 7100
+Wire Wire Line
+	3000 7100 3000 7400
+Wire Wire Line
+	2950 7200 3050 7200
+Wire Wire Line
+	3850 7200 3950 7200
+Wire Wire Line
+	3850 7300 3950 7300
+Wire Wire Line
+	3850 7000 3950 7000
+Wire Wire Line
+	3850 6900 3950 6900
+Wire Wire Line
+	3850 6600 3950 6600
+Wire Wire Line
+	3900 6500 3900 6800
+Wire Wire Line
+	3850 7100 3950 7100
+Wire Wire Line
+	3000 6800 3050 6800
+Connection ~ 3000 6800
+Wire Wire Line
+	3000 6800 3000 7100
+Text GLabel 3950 6300 2    50   Output ~ 0
+OFF_N
+Wire Wire Line
+	3850 6800 3900 6800
+Connection ~ 3900 6800
+Wire Wire Line
+	3900 6800 3900 7400
+Wire Wire Line
+	3850 6700 3950 6700
+Wire Wire Line
+	3850 6400 4600 6400
 $EndSCHEMATC

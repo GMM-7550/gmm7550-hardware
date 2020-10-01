@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 7
-Title "GateMate FPGA Module"
-Date "2020-07-08"
-Rev "0.5"
+Title "GateMate FPGA Module: GMM-7550"
+Date "2020-10-01"
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -147,14 +147,14 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5EC0A92B
-P 2800 3950
+P 3150 3950
 AR Path="/5E836017/5EC0A92B" Ref="#PWR?"  Part="1" 
 AR Path="/5E928EDB/5EC0A92B" Ref="#PWR0115"  Part="1" 
-F 0 "#PWR0115" H 2800 3700 50  0001 C CNN
-F 1 "GND" H 2700 3850 50  0000 C CNN
-F 2 "" H 2800 3950 50  0001 C CNN
-F 3 "" H 2800 3950 50  0001 C CNN
-	1    2800 3950
+F 0 "#PWR0115" H 3150 3700 50  0001 C CNN
+F 1 "GND" H 3050 3850 50  0000 C CNN
+F 2 "" H 3150 3950 50  0001 C CNN
+F 3 "" H 3150 3950 50  0001 C CNN
+	1    3150 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -342,8 +342,6 @@ F 3 "" H 7250 3600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2500 3600 2500 3100
-Wire Wire Line
-	2500 3100 2800 3100
 $Comp
 L Device:C_Small C?
 U 1 1 5ECEA1C0
@@ -779,34 +777,9 @@ Connection ~ 2500 2600
 Wire Wire Line
 	2500 2600 2800 2600
 Wire Wire Line
-	2800 3850 2800 3900
-Wire Wire Line
-	2800 3900 3150 3900
-Connection ~ 2800 3900
-Wire Wire Line
-	2800 3900 2800 3950
+	3150 3900 3150 3950
 Connection ~ 3150 3900
-$Comp
-L Device:C_Small C?
-U 1 1 5F1A12E3
-P 2800 3750
-AR Path="/5E836017/5F1A12E3" Ref="C?"  Part="1" 
-AR Path="/5E928EDB/5F1A12E3" Ref="C133"  Part="1" 
-F 0 "C133" H 2850 3850 50  0000 L CNN
-F 1 "2.2uF" H 2850 3650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2800 3750 50  0001 C CNN
-F 3 "~" H 2800 3750 50  0001 C CNN
-	1    2800 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2500 3600 2800 3600
 Connection ~ 3150 3600
-Wire Wire Line
-	2800 3650 2800 3600
-Connection ~ 2800 3600
-Wire Wire Line
-	2800 3600 3150 3600
 $Comp
 L Device:L L?
 U 1 1 5F2032AC
@@ -837,19 +810,6 @@ F 4 "MI0805K601R-10" V 3450 2600 50  0001 C CNN "PartNumber"
 $EndComp
 $Comp
 L Device:C_Small C?
-U 1 1 5F206047
-P 2800 3250
-AR Path="/5E836017/5F206047" Ref="C?"  Part="1" 
-AR Path="/5E928EDB/5F206047" Ref="C132"  Part="1" 
-F 0 "C132" H 2850 3350 50  0000 L CNN
-F 1 "2.2uF" H 2850 3150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2800 3250 50  0001 C CNN
-F 3 "~" H 2800 3250 50  0001 C CNN
-	1    2800 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
 U 1 1 5F206746
 P 2800 2750
 AR Path="/5E836017/5F206746" Ref="C?"  Part="1" 
@@ -864,14 +824,14 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F207D14
-P 2800 3450
+P 3150 3450
 AR Path="/5E836017/5F207D14" Ref="#PWR?"  Part="1" 
 AR Path="/5E928EDB/5F207D14" Ref="#PWR038"  Part="1" 
-F 0 "#PWR038" H 2800 3200 50  0001 C CNN
-F 1 "GND" H 2700 3350 50  0000 C CNN
-F 2 "" H 2800 3450 50  0001 C CNN
-F 3 "" H 2800 3450 50  0001 C CNN
-	1    2800 3450
+F 0 "#PWR038" H 3150 3200 50  0001 C CNN
+F 1 "GND" H 3050 3350 50  0000 C CNN
+F 2 "" H 3150 3450 50  0001 C CNN
+F 3 "" H 3150 3450 50  0001 C CNN
+	1    3150 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -901,17 +861,7 @@ Wire Wire Line
 	2800 2900 2800 2950
 Connection ~ 3150 2900
 Wire Wire Line
-	2800 3100 2800 3150
-Connection ~ 2800 3100
-Wire Wire Line
-	2800 3100 3150 3100
-Wire Wire Line
-	2800 3350 2800 3400
-Wire Wire Line
-	2800 3400 3150 3400
-Connection ~ 2800 3400
-Wire Wire Line
-	2800 3400 2800 3450
+	3150 3400 3150 3450
 Connection ~ 3150 3400
 $Comp
 L Device:L L?
@@ -1167,7 +1117,7 @@ Wire Wire Line
 	9600 5450 9600 5400
 Connection ~ 9600 5400
 Text Notes 7800 7050 0    100  ~ 0
-Copyright (c) 2020  Anton Kuzmin\nLicensed under CERN-OHL-P v2\nhttps://github.com/ak-fau/gmm.git
+Copyright (c) 2020  Anton Kuzmin\nLicensed under CERN-OHL-P v2\nhttps://github.com/ak-fau/gmm7550.git
 $Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO?
 U 1 1 5F3242E9
@@ -1181,4 +1131,8 @@ F 3 "~" H 7350 6850 50  0001 C CNN
 	1    7350 6850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2500 3100 3150 3100
+Wire Wire Line
+	2500 3600 3150 3600
 $EndSCHEMATC

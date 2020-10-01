@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
-Title "GateMate FPGA Module"
-Date "2020-07-08"
-Rev "0.5"
+Title "GateMate FPGA Module: GMM-7550"
+Date "2020-10-01"
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1192,43 +1192,43 @@ B1 58 B4 5D 06 00 00 50 84 C0 0C 00 00 00 2B CB B2 4C 5D 60 46 77 19 00 00 58 D7
 EndData
 $EndBitmap
 $Sheet
-S 1000 7000 1000 200 
+S 1100 6000 1000 200 
 U 5E839D8B
 F0 "GPIO" 50
 F1 "io.sch" 50
 $EndSheet
 $Sheet
-S 1000 6000 1000 200 
+S 1100 6500 1000 200 
 U 5E836017
 F0 "Clock and SERDES" 50
 F1 "clk_serdes.sch" 50
 $EndSheet
 $Sheet
-S 1000 6500 1000 200 
+S 1100 7000 1000 200 
 U 5E920AD5
 F0 "Configuration and Control" 50
 F1 "cfg_spi.sch" 50
 $EndSheet
 $Sheet
-S 2500 6500 1000 200 
+S 2500 6000 1000 200 
 U 5E928E3D
 F0 "Power Converter" 50
 F1 "power.sch" 50
 $EndSheet
 $Sheet
-S 2500 7000 1000 200 
+S 2500 6500 1000 200 
 U 5E928EDB
 F0 "FPGA Power" 50
 F1 "fpga_pwr.sch" 50
 $EndSheet
 $Sheet
-S 2500 6000 1000 200 
+S 2500 7000 1000 200 
 U 5FDA34FC
 F0 "IO Connectors" 50
 F1 "connectors.sch" 50
 $EndSheet
 Text Notes 3100 1250 0    157  ~ 31
-Cologne Chip GateMate FPGA Module\nfor CCGM1A 1/2/4 (BGA320, 15x15 mm) 
+Cologne Chip GateMate FPGA Module: GMM-7550\nfor CCGM1A 1/2/4 (BGA320, 15x15 mm) 
 Text Notes 1100 1800 0    100  ~ 20
 Revision
 Text Notes 2250 1800 0    100  ~ 20
@@ -1252,9 +1252,9 @@ Wire Notes Line width 8 style solid
 Text Notes 1300 2700 0    100  ~ 0
 1.0
 Text Notes 1900 2700 0    100  ~ 0
-2020-xx-xx
+2020-10-01
 Text Notes 3150 2750 0    100  ~ 0
-Module V1.0 released to manufacturing\n(I/O and BoM changes back ported from PCB)
+Schematic freeze, preliminary placement is done.\n(I/O and BoM changes back ported from PCB)
 Wire Notes Line width 8 style solid
 	1000 2850 7100 2850
 Wire Notes Line width 8 style solid
@@ -1330,7 +1330,7 @@ F 3 "~" H 4050 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 7800 7050 0    100  ~ 0
-Copyright (c) 2020  Anton Kuzmin\nLicensed under CERN-OHL-P v2\nhttps://github.com/ak-fau/gmm.git
+Copyright (c) 2020  Anton Kuzmin\nLicensed under CERN-OHL-P v2\nhttps://github.com/ak-fau/gmm7550.git
 $Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO1
 U 1 1 5F479D1D

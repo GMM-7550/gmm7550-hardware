@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
-Title "GateMate FPGA Module"
-Date "2020-07-08"
-Rev "0.5"
+Title "GateMate FPGA Module: GMM-7550"
+Date "2020-10-01"
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -321,15 +321,15 @@ $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5EFC80D5
-P 8400 3650
+P 8400 3750
 AR Path="/5E920AD5/5EFC80D5" Ref="R?"  Part="1" 
 AR Path="/5EF47D3D/5EFC80D5" Ref="R?"  Part="1" 
 AR Path="/5E928E3D/5EFC80D5" Ref="R62"  Part="1" 
-F 0 "R62" H 8500 3700 50  0000 C CNN
-F 1 "7.5k" H 8450 3600 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8400 3650 50  0001 C CNN
-F 3 "~" H 8400 3650 50  0001 C CNN
-	1    8400 3650
+F 0 "R62" H 8500 3800 50  0000 C CNN
+F 1 "7.5k" H 8450 3700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8400 3750 50  0001 C CNN
+F 3 "~" H 8400 3750 50  0001 C CNN
+	1    8400 3750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1012,7 +1012,7 @@ Wire Wire Line
 	9400 2750 9400 2700
 Connection ~ 9400 2700
 Wire Wire Line
-	9400 2700 9800 2700
+	9400 2700 9650 2700
 Wire Wire Line
 	9100 2750 9100 2700
 Connection ~ 9100 2700
@@ -1034,7 +1034,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 2800 8950 3600
 Wire Wire Line
-	8950 3600 9800 3600
+	8950 3600 9650 3600
 Connection ~ 9800 3600
 Wire Wire Line
 	9800 3600 9800 3550
@@ -1158,12 +1158,12 @@ Connection ~ 7800 3200
 $Comp
 L power:GND #PWR026
 U 1 1 5F268D3D
-P 8400 3800
-F 0 "#PWR026" H 8400 3550 50  0001 C CNN
-F 1 "GND" H 8500 3700 50  0000 C CNN
-F 2 "" H 8400 3800 50  0001 C CNN
-F 3 "" H 8400 3800 50  0001 C CNN
-	1    8400 3800
+P 8400 3850
+F 0 "#PWR026" H 8400 3600 50  0001 C CNN
+F 1 "GND" H 8500 3750 50  0000 C CNN
+F 2 "" H 8400 3850 50  0001 C CNN
+F 3 "" H 8400 3850 50  0001 C CNN
+	1    8400 3850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1177,20 +1177,18 @@ Wire Wire Line
 Wire Wire Line
 	8400 3450 8400 3500
 Wire Wire Line
-	8400 3750 8400 3800
-Wire Wire Line
 	6150 3300 7650 3300
 Wire Wire Line
 	7650 3300 7650 3750
 Wire Wire Line
 	7650 3750 8250 3750
 Wire Wire Line
-	8250 3750 8250 3500
+	8250 3750 8250 3550
 Wire Wire Line
-	8250 3500 8400 3500
-Connection ~ 8400 3500
+	8250 3550 8400 3550
+Connection ~ 8400 3550
 Wire Wire Line
-	8400 3500 8400 3550
+	8400 3550 8400 3650
 $Comp
 L Device:C_Small C113
 U 1 1 5F29790C
@@ -1302,12 +1300,10 @@ Wire Wire Line
 Wire Wire Line
 	7400 4650 8250 4650
 Wire Wire Line
-	8250 4650 8250 4400
+	8250 4650 8250 4450
 Wire Wire Line
-	8250 4400 8400 4400
-Connection ~ 8400 4400
-Wire Wire Line
-	8400 4400 8400 4450
+	8250 4450 8400 4450
+Connection ~ 8400 4450
 Wire Wire Line
 	6450 3900 6150 3900
 Wire Wire Line
@@ -1321,7 +1317,7 @@ COMP2
 Text Label 6450 3900 2    50   ~ 0
 COMP3
 Wire Wire Line
-	8400 4100 8950 4100
+	8400 4100 8700 4100
 Wire Wire Line
 	8950 4100 8950 5250
 Wire Wire Line
@@ -1371,7 +1367,7 @@ AR Path="/5EF47D3D/5F413645" Ref="R?"  Part="1"
 AR Path="/5E928E3D/5F413645" Ref="R67"  Part="1" 
 F 0 "R67" V 9800 4900 50  0000 C CNN
 F 1 "10k" V 10000 4950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9900 4950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9900 4950 50  0001 C CNN
 F 3 "~" H 9900 4950 50  0001 C CNN
 	1    9900 4950
 	0    1    1    0   
@@ -1434,7 +1430,7 @@ AR Path="/5EF47D3D/5F44AE1A" Ref="R?"  Part="1"
 AR Path="/5E928E3D/5F44AE1A" Ref="R68"  Part="1" 
 F 0 "R68" V 9800 5500 50  0000 C CNN
 F 1 "20k" V 10000 5550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9900 5550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9900 5550 50  0001 C CNN
 F 3 "~" H 9900 5550 50  0001 C CNN
 	1    9900 5550
 	0    1    1    0   
@@ -1497,7 +1493,7 @@ AR Path="/5EF47D3D/5F459835" Ref="R?"  Part="1"
 AR Path="/5E928E3D/5F459835" Ref="R72"  Part="1" 
 F 0 "R72" V 9800 6100 50  0000 C CNN
 F 1 "20k" V 10000 6150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9900 6150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9900 6150 50  0001 C CNN
 F 3 "~" H 9900 6150 50  0001 C CNN
 	1    9900 6150
 	0    1    1    0   
@@ -1609,7 +1605,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 6000 6800 6050
 Text Notes 7800 7050 0    100  ~ 0
-Copyright (c) 2020  Anton Kuzmin\nLicensed under CERN-OHL-P v2\nhttps://github.com/ak-fau/gmm.git
+Copyright (c) 2020  Anton Kuzmin\nLicensed under CERN-OHL-P v2\nhttps://github.com/ak-fau/gmm7550.git
 $Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO?
 U 1 1 5F31458A
@@ -1623,4 +1619,102 @@ F 3 "~" H 7350 6850 50  0001 C CNN
 	1    7350 6850
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F3861CA
+P 9650 3150
+AR Path="/5E920AD5/5F3861CA" Ref="C?"  Part="1" 
+AR Path="/5EF47D3D/5F3861CA" Ref="C?"  Part="1" 
+AR Path="/5E928E3D/5F3861CA" Ref="C141"  Part="1" 
+F 0 "C141" H 9450 3250 50  0000 L CNN
+F 1 "DNI" H 9500 3050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9650 3150 50  0001 C CNN
+F 3 "~" H 9650 3150 50  0001 C CNN
+	1    9650 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 3050 9650 2700
+Connection ~ 9650 2700
+Wire Wire Line
+	9650 2700 9800 2700
+Wire Wire Line
+	9650 3250 9650 3600
+Connection ~ 9650 3600
+Wire Wire Line
+	9650 3600 9800 3600
+$Comp
+L Device:C_Small C?
+U 1 1 5F3A4DF3
+P 8700 3350
+AR Path="/5E920AD5/5F3A4DF3" Ref="C?"  Part="1" 
+AR Path="/5EF47D3D/5F3A4DF3" Ref="C?"  Part="1" 
+AR Path="/5E928E3D/5F3A4DF3" Ref="C142"  Part="1" 
+F 0 "C142" H 8750 3450 50  0000 L CNN
+F 1 "DNI" H 8750 3250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8700 3350 50  0001 C CNN
+F 3 "~" H 8700 3350 50  0001 C CNN
+	1    8700 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 3200 8700 3250
+Connection ~ 8700 3200
+Wire Wire Line
+	8700 3450 8700 3500
+Wire Wire Line
+	8700 3500 8400 3500
+Connection ~ 8400 3500
+Wire Wire Line
+	8400 3500 8400 3550
+$Comp
+L Device:C_Small C?
+U 1 1 5F4054A2
+P 8700 4250
+AR Path="/5E920AD5/5F4054A2" Ref="C?"  Part="1" 
+AR Path="/5EF47D3D/5F4054A2" Ref="C?"  Part="1" 
+AR Path="/5E928E3D/5F4054A2" Ref="C143"  Part="1" 
+F 0 "C143" H 8750 4350 50  0000 L CNN
+F 1 "DNI" H 8750 4150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8700 4250 50  0001 C CNN
+F 3 "~" H 8700 4250 50  0001 C CNN
+	1    8700 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 4150 8700 4100
+Connection ~ 8700 4100
+Wire Wire Line
+	8700 4100 8950 4100
+Wire Wire Line
+	8400 4400 8700 4400
+Wire Wire Line
+	8700 4400 8700 4350
+Connection ~ 8400 4400
+Wire Wire Line
+	8400 4400 8400 4450
+Text Label 6200 2800 0    50   ~ 0
+FB1
+Text Label 6200 3300 0    50   ~ 0
+FB2
+Text Label 6200 3800 0    50   ~ 0
+FB3
+Text Label 6200 2700 0    50   ~ 0
+LX1
+Text Label 6200 3200 0    50   ~ 0
+LX2
+Text Label 6200 3700 0    50   ~ 0
+LX3
+Text Label 6200 2600 0    50   ~ 0
+BST1
+Text Label 6200 3100 0    50   ~ 0
+BST2
+Text Label 6200 3600 0    50   ~ 0
+BST3
+Text Label 3950 3800 0    50   ~ 0
+SS1
+Text Label 3950 3900 0    50   ~ 0
+SS2
+Text Label 3950 4000 0    50   ~ 0
+SS3
 $EndSCHEMATC

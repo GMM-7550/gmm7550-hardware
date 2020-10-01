@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
-Title "GateMate FPGA Module"
-Date "2020-07-08"
-Rev "0.5"
+Title "GateMate FPGA Module: GMM-7550"
+Date "2020-10-01"
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -945,35 +945,19 @@ Wire Wire Line
 	5100 2650 5650 2650
 Connection ~ 5650 2650
 Text GLabel 7500 1900 2    50   UnSpc ~ 0
-VCLKO3
-Text GLabel 7500 2650 2    50   UnSpc ~ 0
-VCLKO4
+VCLK
 Wire Wire Line
-	6550 1900 6900 1900
+	6550 1900 6750 1900
 Connection ~ 6550 1900
-Wire Wire Line
-	6550 2650 7150 2650
-Connection ~ 6550 2650
 $Comp
 L power:+2V5 #PWR0111
 U 1 1 5EBBAF77
-P 7150 1150
-F 0 "#PWR0111" H 7150 1000 50  0001 C CNN
-F 1 "+2V5" H 7165 1323 50  0000 C CNN
-F 2 "" H 7150 1150 50  0001 C CNN
-F 3 "" H 7150 1150 50  0001 C CNN
-	1    7150 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R2
-U 1 1 5EBBD852
-P 7150 1350
-F 0 "R2" H 7209 1396 50  0000 L CNN
-F 1 "DNI" H 7209 1305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7150 1350 50  0001 C CNN
-F 3 "~" H 7150 1350 50  0001 C CNN
-	1    7150 1350
+P 6900 1150
+F 0 "#PWR0111" H 6900 1000 50  0001 C CNN
+F 1 "+2V5" H 6915 1323 50  0000 C CNN
+F 2 "" H 6900 1150 50  0001 C CNN
+F 3 "" H 6900 1150 50  0001 C CNN
+	1    6900 1150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -988,24 +972,14 @@ F 3 "~" H 6900 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7150 1150 7150 1200
+	6900 1150 6900 1200
 Wire Wire Line
 	6900 1250 6900 1200
-Wire Wire Line
-	6900 1200 7150 1200
-Connection ~ 7150 1200
-Wire Wire Line
-	7150 1200 7150 1250
 Wire Wire Line
 	6900 1900 6900 1450
 Connection ~ 6900 1900
 Wire Wire Line
 	6900 1900 7500 1900
-Wire Wire Line
-	7150 2650 7150 1450
-Connection ~ 7150 2650
-Wire Wire Line
-	7150 2650 7500 2650
 $Comp
 L gmm:ADP151ACP U13
 U 1 1 5F0837BE
@@ -1109,7 +1083,7 @@ Connection ~ 2750 1900
 Text Label 2350 1900 0    50   ~ 0
 VDD_PLL
 Text Notes 7800 7050 0    100  ~ 0
-Copyright (c) 2020  Anton Kuzmin\nLicensed under CERN-OHL-P v2\nhttps://github.com/ak-fau/gmm.git
+Copyright (c) 2020  Anton Kuzmin\nLicensed under CERN-OHL-P v2\nhttps://github.com/ak-fau/gmm7550.git
 $Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO?
 U 1 1 5F1F6E69
@@ -1123,4 +1097,12 @@ F 3 "~" H 7350 6850 50  0001 C CNN
 	1    7350 6850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6550 2650 6750 2650
+Wire Wire Line
+	6750 2650 6750 1900
+Connection ~ 6550 2650
+Connection ~ 6750 1900
+Wire Wire Line
+	6750 1900 6900 1900
 $EndSCHEMATC
