@@ -1,7 +1,0 @@
-(fp_lib_table
-  (lib (name Amphenol)(type KiCad)(uri ${KIPRJMOD}/../Amphenol.pretty)(options "")(descr ""))
-  (lib (name Package_BGA)(type KiCad)(uri ${KIPRJMOD}/../../kicad/kicad-footprints/Package_BGA.pretty)(options "")(descr ""))
-  (lib (name Package_DFN_QFN)(type KiCad)(uri ${KIPRJMOD}/../../kicad/kicad-footprints/Package_DFN_QFN.pretty)(options "")(descr ""))
-  (lib (name gmm)(type KiCad)(uri ${KIPRJMOD}/gmm.pretty)(options "")(descr ""))
-  (lib (name Jumper)(type KiCad)(uri /home/ak/Work/kicad/kicad-footprints/Jumper.pretty)(options "")(descr ""))
-)

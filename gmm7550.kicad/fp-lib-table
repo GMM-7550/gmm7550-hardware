@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name Amphenol)(type KiCad)(uri ${KIPRJMOD}/../kicad.libs/Amphenol.pretty)(options "")(descr ""))
+  (lib (name Package_BGA)(type KiCad)(uri ${KIPRJMOD}/../kicad.libs/Package_BGA.pretty)(options "")(descr ""))
+  (lib (name gmm)(type KiCad)(uri ${KIPRJMOD}/gmm.pretty)(options "")(descr ""))
+  (lib (name Inductor_SMD)(type KiCad)(uri ${KISYSMOD}/Inductor_SMD.pretty)(options "")(descr ""))
+  (lib (name MountingHole)(type KiCad)(uri ${KISYSMOD}/MountingHole.pretty)(options "")(descr ""))
+  (lib (name Jumper)(type KiCad)(uri ${KISYSMOD}/Jumper.pretty)(options "")(descr ""))
+  (lib (name Package_DFN_QFN)(type KiCad)(uri ${KISYSMOD}/Package_DFN_QFN.pretty)(options "")(descr ""))
+)

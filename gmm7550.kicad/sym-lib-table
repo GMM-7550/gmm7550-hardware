@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name Amphenol)(type Legacy)(uri ${KIPRJMOD}/../kicad.libs/Amphenol.lib)(options "")(descr ""))
+  (lib (name IDT)(type Legacy)(uri ${KIPRJMOD}/../kicad.libs/idt.lib)(options "")(descr ""))
+  (lib (name CologneChip)(type Legacy)(uri ${KIPRJMOD}/../kicad.libs/FPGA_CologneChip_GateMate.lib)(options "")(descr ""))
+  (lib (name gmm)(type Legacy)(uri ${KIPRJMOD}/../kicad.libs/gmm.lib)(options "")(descr ""))
+)
