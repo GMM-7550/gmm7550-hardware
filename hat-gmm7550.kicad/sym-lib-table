@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "hat-gmm7550")(type "KiCad")(uri "${KIPRJMOD}/hat-gmm7550.kicad_sym")(options "")(descr ""))
+  (lib (name "Amphenol")(type "Legacy")(uri "/home/ak/Work/ccgm/gmm/kicad.libs/Amphenol.lib")(options "")(descr ""))
+)

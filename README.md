@@ -1,20 +1,26 @@
 # CologneChip GateMate FPGA Module: GMM-7550
 
-**WARNING**
+Current module revision is 2.0 -- it is updated to the latest
+(flip-chip) GateMate FPGA pin out. The other changes are complete
+redesigns of the power and clock subsystems due to component
+availability.
 
-Current version of the design is based on the preliminary data
-from the CologneChip and **has to be updated** prior
-the hardware manufacturing.
+![Module preview](./doc/gmm7550_preview_3d_2022-03-09.png)
 
-Quote from an e-mail from CologneChip technical support:
+[Schematic (pdf) version 2.0](./doc/GMM-7550_2.0_2022-03-09.pdf)
 
-> Unfortunately the pinout had to be changed slightly. We are
-> still waiting for feedback and information from our packager.
-> I would ask you to wait with hardware manufacturing until
-> we have the data
+## 40-pin GPIO (R-Pi HAT) Adapter for GMM-7550 Module
 
-![Module preview](./doc/GMM-7550_preview_2020-10-01.png)
+The adapter board provides power to the GMM-7550 module (5V from
+40-pin GPIO or from an external connector), I2C and SPI interfaces,
+control over the module power enable and reset signals and module
+power consumption monitoring.
 
-[Schematic (pdf) version 1.0](./doc/GMM-7550_1.0_2020-10-01.pdf)
+Two 12-pin Pmod extension connectors are routed to the GateMate
+FPGA South GPIO pins through 2.5/3.3 bi-directional level converter.
+
+![Adapter preview](./doc/hat-gmm7550_preview_2022-03-09.png)
+
+[Schematic (pdf) version 1.0](./doc/HAT-GMM-7550_1.0_2022-03-09.pdf)
 
 This project is licensed under [CERN-OHL-P v2](./cern_ohl_p_v2.txt)
