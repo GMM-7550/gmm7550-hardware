@@ -1,4 +1,4 @@
-5709995366316408
+5710025598564069
 Amphenol
 10144517-061802LF
 10144517-061802LF-1
@@ -24269,13 +24269,6 @@ test point THT pad
 1
 1
 gmm
-CologneChip-Logo_14x9mm_SilkScreen
-
-
-0
-0
-0
-gmm
 FDSD0518H100MP3
 2019 (5249) T=1.8mm
 Inductor
@@ -24310,3 +24303,10 @@ QFN-16-1EP_2.6x1.8mm_P0.4mm_EP1.5x0.7mm
 0
 17
 17
+gmm
+SOT-753
+
+
+0
+5
+5
