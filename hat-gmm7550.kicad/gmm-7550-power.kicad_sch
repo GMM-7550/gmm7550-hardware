@@ -6,8 +6,8 @@
 
   (title_block
     (title "40-pin GPIO HAT adapter for GMM-7550")
-    (date "2022-03-09")
-    (rev "1.0")
+    (date "2022-04-24")
+    (rev "1.1")
   )
 
   (lib_symbols
@@ -5101,7 +5101,7 @@
     (uuid d36394f9-e509-4bf8-acfb-e6199c89d6c2)
     (property "Reference" "U2" (id 0) (at 96.52 55.88 0))
     (property "Value" "74LVC1G07" (id 1) (at 100.33 62.23 0))
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5" (id 2) (at 93.98 59.69 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (id 2) (at 93.98 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 93.98 59.69 0)
