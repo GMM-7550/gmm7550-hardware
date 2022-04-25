@@ -6,8 +6,8 @@
 
   (title_block
     (title "GateMate FPGA Module: GMM-7550")
-    (date "2022-03-09")
-    (rev "2.0")
+    (date "2022-04-24")
+    (rev "2.1")
   )
 
   (lib_symbols
