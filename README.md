@@ -7,7 +7,7 @@ availability.
 
 ![Module preview](./doc/gmm7550_preview_3d_2022-03-09.png)
 
-[Schematic (pdf) version 2.0](./doc/GMM-7550_2.0_2022-03-09.pdf)
+[Schematic (pdf) version 2.1](./doc/GMM-7550_2.1_2022-04-24.pdf)
 
 ## 40-pin GPIO (R-Pi HAT) Adapter for GMM-7550 Module
 
@@ -21,6 +21,6 @@ FPGA South GPIO pins through 2.5/3.3 bi-directional level converter.
 
 ![Adapter preview](./doc/hat-gmm7550_preview_2022-03-09.png)
 
-[Schematic (pdf) version 1.0](./doc/HAT-GMM-7550_1.0_2022-03-09.pdf)
+[Schematic (pdf) version 1.1](./doc/HAT-GMM-7550_1.1_2022-04-24.pdf)
 
 This project is licensed under [CERN-OHL-P v2](./cern_ohl_p_v2.txt)
