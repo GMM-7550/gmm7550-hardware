@@ -1,11 +1,20 @@
 # CologneChip GateMate FPGA Module: GMM-7550
 
-Current module revision is 2.0 -- it is updated to the latest
+**June 2022 Update**
+After more than two years of development and delays
+the module and adapter boards are out of production.
+
+Tests are underway, no problems discovered so far, updates
+are expected in a few weeks.
+
+This project is licensed under [CERN-OHL-P v2](./cern_ohl_p_v2.txt)
+
+Current module revision is 2.1 -- it is updated to the latest
 (flip-chip) GateMate FPGA pin out. The other changes are complete
 redesigns of the power and clock subsystems due to component
 availability.
 
-![Module preview](./doc/gmm7550_preview_3d_2022-03-09.png)
+![Assembled modules](./doc/gmm7550x2.jpg)
 
 [Schematic (pdf) version 2.1](./doc/GMM-7550_2.1_2022-04-24.pdf)
 
@@ -19,8 +28,15 @@ power consumption monitoring.
 Two 12-pin Pmod extension connectors are routed to the GateMate
 FPGA South GPIO pins through 2.5/3.3 bi-directional level converter.
 
-![Adapter preview](./doc/hat-gmm7550_preview_2022-03-09.png)
+![Assembled 40-pin adapter board](./doc/hat-gmm7550.jpg)
 
 [Schematic (pdf) version 1.1](./doc/HAT-GMM-7550_1.1_2022-04-24.pdf)
 
-This project is licensed under [CERN-OHL-P v2](./cern_ohl_p_v2.txt)
+## Test and Demo System based on VisionFive RISC-V SBC
+
+The SBC runs [`buildroot`](https://buildroot.org/) embedded Linux,
+experimental
+[configuration for the VisionFive board](https://github.com/ak-fau/buildroot-visionfive/)
+is available as a `buildroot`-external tree.
+
+![VisionFive SBC and modules for the test system](./doc/demo-parts.jpg)
