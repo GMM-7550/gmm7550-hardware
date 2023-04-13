@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Amphenol")(type "KiCad")(uri "/home/ak/Work/ccgm/gmm/kicad.libs/Amphenol.pretty")(options "")(descr ""))
+)
