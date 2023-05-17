@@ -32,6 +32,22 @@ FPGA South GPIO pins through 2.5/3.3 bi-directional level converter.
 
 [Schematic (pdf) version 1.1](./doc/HAT-GMM-7550_1.1_2022-04-24.pdf)
 
+## Memory Extension Module
+
+The module provides 512Kx8 static RAM (CY7C1049GN30-10ZSXI) with 10 ns
+access time and 16 MiB QSPI NOR FLASH (S25LP128-JBLE). The module may
+be connected to P1, P2 or P3 connector of the GMM-7550, up to three
+modules may be connected simultaneously. An SPI Bridge example design
+for FPGA routes SPI from a host (R-Pi or VisionFive board) to the
+module connector and allows to access the SPI NOR chip on the module
+from the host. The module control software provides commands to
+automate the FPGA configuration and access to the SPI on the extension
+module.
+
+![Memory module](./doc/mem-module.jpg)
+
+[Schematic (pdf) version 1.0](./doc/MEM-GMM-7550_1.0_2023-04-24.pdf)
+
 ## Test and Demo System based on VisionFive RISC-V SBC
 
 The SBC runs [`buildroot`](https://buildroot.org/) embedded Linux,
