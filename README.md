@@ -3,7 +3,7 @@
 **January 2024 Update**
 
 The project repositories are moved to a dedicated account.
-Please, update your references to <https://github.com/gmm-7550/gmm7550.git/>
+Please, update your references to <https://github.com/gmm-7550/>
 to follow further development.
 
 **June 2022 Update**
