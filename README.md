@@ -1,5 +1,11 @@
 # CologneChip GateMate FPGA Module: GMM-7550
 
+**January 2024 Update**
+
+The project repositories are moved to a dedicated account.
+Please, update your references to <https://github.com/gmm-7550/gmm7550.git/>
+to follow further development.
+
 **June 2022 Update**
 After more than two years of development and delays
 the module and adapter boards are out of production.
