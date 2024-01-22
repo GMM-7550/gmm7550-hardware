@@ -6,8 +6,8 @@
 
   (title_block
     (title "40-pin GPIO HAT adapter for GMM-7550")
-    (date "2022-04-24")
-    (rev "1.1")
+    (date "2024-01-27")
+    (rev "1.2")
   )
 
   (lib_symbols
@@ -3493,7 +3493,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1448b475-b96a-43e0-b482-01cc39889fb5)
   )
-  (text "Copyright (c) 2022  Anton Kuzmin\nLicensed under CERN-OHL-P v2\nhttps://github.com/ak-fau/gmm7550.git"
+  (text "Copyright (c) 2022-2024  Anton Kuzmin\nLicensed under CERN-OHL-P v2\nhttps://github.com/gmm-7550/"
     (at 198.12 179.07 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 44846317-d1e2-477d-a35b-51871755918f)

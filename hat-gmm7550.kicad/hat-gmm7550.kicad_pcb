@@ -6644,7 +6644,7 @@
   (gr_text "GND" (at 86 88.9) (layer "F.SilkS") (tstamp 56d48622-82d7-4091-942b-185f9d8f2ef1)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
-  (gr_text "rev 1.1" (at 130.2 58) (layer "F.SilkS") (tstamp 5a79b86c-fc8c-4ee2-b7d9-254411fc8e2c)
+  (gr_text "rev 1.2" (at 130.2 58) (layer "F.SilkS") (tstamp 5a79b86c-fc8c-4ee2-b7d9-254411fc8e2c)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
   (gr_text "15" (at 96.15 51.2 90) (layer "F.SilkS") (tstamp 6772c2dd-7311-4871-b911-27cfab7bc0a4)

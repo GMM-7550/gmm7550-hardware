@@ -6,8 +6,8 @@
 
   (title_block
     (title "GateMate FPGA Module: GMM-7550")
-    (date "2022-04-24")
-    (rev "2.1")
+    (date "2022-04-27")
+    (rev "2.2")
   )
 
   (lib_symbols
@@ -2038,7 +2038,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b15b2b8c-edef-4158-8c09-2bca9988ac3e)
   )
-  (text "Copyright (c) 2020-2022  Anton Kuzmin\nLicensed under CERN-OHL-P v2\nhttps://github.com/ak-fau/gmm7550.git"
+  (text "Copyright (c) 2020-2024  Anton Kuzmin\nLicensed under CERN-OHL-P v2\nhttps://github.com/gmm-7550/"
     (at 198.12 179.07 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid ee8110c3-0362-4ef3-81a8-e51c3d98cf4c)
