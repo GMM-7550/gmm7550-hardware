@@ -1,9 +1,10 @@
 (sym_lib_table
+  (version 7)
   (lib (name "Amphenol")(type "Legacy")(uri "${KIPRJMOD}/../kicad.libs/Amphenol.lib")(options "")(descr ""))
   (lib (name "IDT")(type "Legacy")(uri "${KIPRJMOD}/../kicad.libs/idt.lib")(options "")(descr ""))
   (lib (name "FPGA_CologneChip_GateMate")(type "KiCad")(uri "${KIPRJMOD}/../kicad.libs/FPGA_CologneChip_GateMate.kicad_sym")(options "")(descr ""))
   (lib (name "gmm")(type "Legacy")(uri "${KIPRJMOD}/../kicad.libs/gmm.lib")(options "")(descr ""))
   (lib (name "gmm-rescue")(type "Legacy")(uri "${KIPRJMOD}/gmm-rescue.lib")(options "")(descr ""))
   (lib (name "gmm_v6")(type "KiCad")(uri "${KIPRJMOD}/../kicad.libs/gmm_v6.kicad_sym")(options "")(descr ""))
-  (lib (name "Transistor_FET_v6")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Transistor_FET.kicad_sym")(options "")(descr ""))
+  (lib (name "Transistor_FET_v6")(type "KiCad")(uri "${KICAD7_SYMBOL_DIR}/Transistor_FET.kicad_sym")(options "")(descr ""))
 )
