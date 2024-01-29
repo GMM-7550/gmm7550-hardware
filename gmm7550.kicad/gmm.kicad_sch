@@ -1015,7 +1015,7 @@
     (property "Value" "GitHub_link_QR" (at 147.32 177.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "gmm:GitHub_link_QR" (at 153.67 172.72 0)
+    (property "Footprint" "gmm:gmm7550_dev_link_QR" (at 153.67 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 153.67 172.72 0)
