@@ -4660,7 +4660,7 @@
     (property "Reference" "J6" (at 209.55 63.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10144517-064802LF" (at 209.55 66.04 0)
+    (property "Value" "10144517-062802LF" (at 209.55 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Amphenol:10144517-061802LF" (at 207.01 107.95 0)
