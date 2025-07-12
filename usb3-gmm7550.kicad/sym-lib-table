@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "usb3-gmm7550")(type "KiCad")(uri "${KIPRJMOD}/usb3-gmm7550.kicad_sym")(options "")(descr ""))
+)
