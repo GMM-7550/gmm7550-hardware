@@ -147,6 +147,202 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Sheet #"
+		(exclude_from_sim no)
+		(at 22.86 45.72 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0064206d-4d21-4e18-8671-64615ba3b1d8")
+	)
+	(text "0.9"
+		(exclude_from_sim no)
+		(at 156.21 53.975 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "0ea2f439-61c4-4135-b096-62496fe2ce60")
+	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 29.21 99.695 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "1395cfd6-f747-4953-9d7f-624748e15df3")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 29.21 76.835 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "22dc57cf-71f2-4bb7-8d70-02d8e9d410d2")
+	)
+	(text "Revision"
+		(exclude_from_sim no)
+		(at 151.13 46.355 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "3a44cec8-7f47-451b-9fc9-717a9e687ee8")
+	)
+	(text "Title page"
+		(exclude_from_sim no)
+		(at 45.72 53.975 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "3ee1824a-645f-4a59-96e8-9e247d4d6efc")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 29.21 69.215 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "50e0406e-2fbc-4e78-84ec-79c7cb96e863")
+	)
+	(text "USB 1.1 and USB 2.0 transceivers"
+		(exclude_from_sim no)
+		(at 45.72 76.835 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "65c003de-a58b-4b95-8f25-e8ce1198e5ed")
+	)
+	(text "Notes"
+		(exclude_from_sim no)
+		(at 201.295 46.355 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "83e3168d-3fbc-43cb-8b76-606a9705d1e5")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 29.21 61.595 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "85a3aaae-408d-42f3-8ca6-0a38c5d5ff35")
+	)
+	(text "GMM-7550 SA and SB IO banks"
+		(exclude_from_sim no)
+		(at 45.72 92.075 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "88cef0b6-b2b1-4238-a910-2a3f642c0660")
+	)
+	(text "Date"
+		(exclude_from_sim no)
+		(at 171.45 46.355 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "98772ea3-be45-4ad0-95de-cf6b02e451ae")
+	)
+	(text "USB 3 Type-C Connector and 5 Gbps switch"
+		(exclude_from_sim no)
+		(at 45.72 69.215 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "9a154094-690f-494f-83ed-1475a336d441")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 29.21 92.075 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "9d2bc8a1-80f6-4d90-8d1b-3b126ffebf6a")
+	)
+	(text "Block diagram"
+		(exclude_from_sim no)
+		(at 45.72 61.595 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "a4c4e166-5b08-49c0-99cf-c470275d192d")
+	)
+	(text "RP2040 MCU: control, configuration, debug"
+		(exclude_from_sim no)
+		(at 45.72 99.695 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "a933bf78-d675-43ca-957c-2726b3a82d40")
+	)
 	(text "Experimental USB 3 adapter for GMM-7550 Module"
 		(exclude_from_sim no)
 		(at 18.415 26.035 0)
@@ -160,6 +356,78 @@
 		)
 		(uuid "af023750-0c5b-4536-8a98-0d7db1643e14")
 	)
+	(text "USB 3 Power Delivery controller and Power Path"
+		(exclude_from_sim no)
+		(at 45.72 107.315 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "b60444ff-ef46-4573-b769-bbbad7201518")
+	)
+	(text "Initial schematic release (layout ready)"
+		(exclude_from_sim no)
+		(at 201.295 53.975 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "b6966189-813a-4b20-b4b5-1861f94dc349")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 29.21 53.975 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "c2616988-d282-47c6-844e-370daf0edf53")
+	)
+	(text "2025-07-xx"
+		(exclude_from_sim no)
+		(at 172.085 53.975 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "c5944b72-8a27-46b9-a92c-a442291feb65")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 29.21 107.315 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "c5c2c38b-a1a2-42ed-8263-740f4e02f353")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 29.21 84.455 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "e92cb515-cbeb-43f2-922d-bc89e6f3b226")
+	)
 	(text "Copyright (c) 2025 Anton Kuzmin <ak@gmm7550.dev>\n\nThis documentation is distributed under the terms of\nthe CERN-OHL-P v2 (https://cern.ch/cern-ohl).\n\nThis project was funded through the NGI0 Common Fund,\na fund established by NLnet foundation."
 		(exclude_from_sim no)
 		(at 214.63 173.99 0)
@@ -170,6 +438,261 @@
 			(justify left)
 		)
 		(uuid "f537010c-2eab-480a-ae2d-4fe367fe14d8")
+	)
+	(text "Description"
+		(exclude_from_sim no)
+		(at 45.72 45.72 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "f73e4986-e36e-4014-a6d2-ef6f829f3c52")
+	)
+	(text "GMM-7550 Module Power and Control"
+		(exclude_from_sim no)
+		(at 45.72 84.455 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "ffadb910-5253-47e1-9ad6-8807f6c41bc2")
+	)
+	(polyline
+		(pts
+			(xy 21.59 110.49) (xy 22.225 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c6c957f-b110-4cba-968f-eece9ab2f7cf")
+	)
+	(polyline
+		(pts
+			(xy 279.4 41.91) (xy 148.59 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a92139-39af-41fb-9142-d19b0635d388")
+	)
+	(polyline
+		(pts
+			(xy 142.24 49.53) (xy 142.24 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f8ca6ee-6cc5-4be4-baf0-502b8ff040a8")
+	)
+	(polyline
+		(pts
+			(xy 279.4 49.53) (xy 148.59 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321eff0f-321d-4a23-9e2a-6b1e19d2c5c7")
+	)
+	(polyline
+		(pts
+			(xy 21.59 49.53) (xy 21.59 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a49d426-713a-4feb-948f-a2465170caa2")
+	)
+	(polyline
+		(pts
+			(xy 21.59 110.49) (xy 142.24 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5868bfb2-1c35-4ff1-bbbd-e86d1eb74d25")
+	)
+	(polyline
+		(pts
+			(xy 142.24 49.53) (xy 142.24 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65b25735-e066-4be8-888b-d23d5c59d90c")
+	)
+	(polyline
+		(pts
+			(xy 279.4 41.91) (xy 279.4 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e204a16-2f3a-4999-92e6-fd3001c75044")
+	)
+	(polyline
+		(pts
+			(xy 279.4 57.15) (xy 148.59 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aae2f14-0027-4c7d-896a-746f8e2ec1eb")
+	)
+	(polyline
+		(pts
+			(xy 21.59 72.39) (xy 142.24 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86039204-c1ad-496a-a418-ad9a5883ed08")
+	)
+	(polyline
+		(pts
+			(xy 41.91 41.91) (xy 41.91 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98394d9d-f506-4084-bb08-d1fe98ddb5bf")
+	)
+	(polyline
+		(pts
+			(xy 21.59 41.91) (xy 21.59 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f3c6cf0-797d-4803-af94-991cb3ec06c6")
+	)
+	(polyline
+		(pts
+			(xy 21.59 57.15) (xy 142.24 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a05060d0-0345-4fa8-8bc9-b218aed67cc6")
+	)
+	(polyline
+		(pts
+			(xy 21.59 80.01) (xy 142.24 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2bf1577-f3d0-485d-9c2e-cf2cd58efb02")
+	)
+	(polyline
+		(pts
+			(xy 199.39 41.91) (xy 199.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be7313d5-5b05-41a0-b11a-206125b558d6")
+	)
+	(polyline
+		(pts
+			(xy 142.24 41.91) (xy 21.59 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef53e0b-2fdd-47aa-a81a-2664a11e8853")
+	)
+	(polyline
+		(pts
+			(xy 21.59 87.63) (xy 142.24 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c000cfc5-c5a5-4270-bdb7-e510cd9e44d4")
+	)
+	(polyline
+		(pts
+			(xy 148.59 41.91) (xy 148.59 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c164db35-6906-4fdf-bc51-796a2e888ea1")
+	)
+	(polyline
+		(pts
+			(xy 21.59 102.87) (xy 142.24 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e54298-78c1-467e-abf5-57c20507df3c")
+	)
+	(polyline
+		(pts
+			(xy 169.545 41.91) (xy 169.545 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6657326-2983-402d-9cfa-23dbce9d48af")
+	)
+	(polyline
+		(pts
+			(xy 21.59 64.77) (xy 142.24 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d52a47-9fd7-4318-be73-8f43a5c988db")
+	)
+	(polyline
+		(pts
+			(xy 21.59 95.25) (xy 142.24 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda12373-57c2-4a72-80d2-041ae69e15ac")
+	)
+	(polyline
+		(pts
+			(xy 21.59 49.53) (xy 142.24 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f34f0975-833a-4a72-b8dd-1b02b66ea457")
 	)
 	(image
 		(at 201.93 177.8)
@@ -1854,7 +2377,61 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAA=="
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAG4AAABuAAAAZQAAAGMAAAB0AAAAbwAAAHIAAABfAAAASAAAAGkAAAByAAAA"
+			"bwAAAHMAAABlAAAAAAAAAAAAAADBAwAAAAAAAACIPlIzXwAAoPnvUDNfAABzAAAAZQAAAF8AAABE"
+			"AAAARgAAADYAAAAzAAAATQAAAC0AAAA0AAAAUAAAAC0AAAAzAAAALgAAADkAAAA2AAAARAAAAFMA"
+			"AABBAAAAXwAAADEAAAB4AAAAMAAAADQAAABfAAAAUAAAADMAAAAuAAAAOQAAADYAAABtAAAAbQAA"
+			"AF8AAABWAAAAZQAAAHIAAAB0AAAAaQAAAGMAAABhAAAAbAAAAAAAAAABAwAAAAAAAGDQL1UzXwAA"
+			"EO7P75Z8AABzAAAAZQAAACAAAABEAAAARgAAADYAAAAzAAAAIAAAAHQAAABoAAAAcgAAAG8AAAB1"
+			"AAAAZwAAAGgAAAAgAAAAaAAAAG8AAABsAAAAZQAAACwAAAAgAAAARAAAAEYAAAA2AAAAMwAAAE0A"
+			"AAAtAAAANAAAAFAAAAAtAAAAMwAAAC4AAAA5AAAANgAAAEQAAABTAAAAQQAAACwAAAAgAAAANAAA"
+			"ACAAAABQAAAAaQAAAG4AAABzAAAAIAAAAHAAAABlAAAAcgAAACAAAAByAAAAbwAAAHcAAAAgAAAA"
+			"KAAAAGgAAAB0AAAAdAAAAHAAAABzAAAAOgAAAC8AAAAvAAAAdwAAAHcAAAB3AAAALgAAAGgAAABp"
+			"AAAAcgAAAG8AAABzAAAAZQAAAC4AAABjAAAAbwAAAG0AAAAvAAAAcAAAAHIAAABvAAAAZAAAAHUA"
+			"AABjAAAAdAAAAIEOAAAAAAAA8AONUTNfAAAAxKBfM18AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAQABAAEAAQAAAAAAAAAAAAAAAAAAAAAAAAA6AAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAARAAAAAgMAAHN0YXRlLmN1cnJlbnRBdHRy"
+			"aWJNYXliZVZQQ2xhbQ=="
 		)
 	)
 	(image
@@ -2932,7 +3509,61 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAA=="
+			"AAAAAAAAAAAAAAAAAAAAACAgICA8bWltZTptaW1lLXR5cGUgdHlwZT0iaW1hZ2UvcG5nIi8+CiAg"
+			"ICAgICAgPGJvb2ttYXJrOmdyb3Vwcz4KICAgICAgICAgIDxib29rbWFyazpncm91cD5HcmFwaGlj"
+			"czwvYm9va21hcms6Z3JvdXA+CiAgICAgICAgPC9ib29rbWFyazpncm91cHM+CiAgICAgICAgPGJv"
+			"b2ttYXJrOmFwcGxpY2F0aW9ucz4KICAgICAgICAgIDxib29rbWFyazphcHBsaWNhdGlvbiBuYW1l"
+			"PSJFeWUgb2YgR05PTUUiIGV4ZWM9IiZhcG9zO2VvZyAldSZhcG9zOyIgbW9kaWZpZWQ9IjIwMjUt"
+			"MDYtMjZUMTY6MjQ6MDMuNjM3ODMyWiIgY291bnQ9IjMiLz4KICAgICAgICA8L2Jvb2ttYXJrOmFw"
+			"cGxpY2F0aW9ucz4KICAgICAgPC9tZXRhZGF0YT4KICAgIDwvaW5mbz4KICA8L2Jvb2ttYXJrPgog"
+			"IDxib29rbWFyayBocmVmPSJmaWxlOi8vL2hvbWUvYWsvVHJhdmVsLzIwMjQtMDJfQnJ1c3NlbHMv"
+			"Qm9va2luZy5jb20lMjBDb25maXJtYXRpb24ucGRmIiBhZGRlZD0iMjAyNS0wNi0yNlQyMDo1NDo0"
+			"Ni43OTMwMjZaIiBtb2RpZmllZD0iMjAyNS0wNi0yNlQyMDo1NjoxMS42MjI0MDJaIiB2aXNpdGVk"
+			"PSIyMDI1LTA2LTI2VDIwOjU0OjQ2Ljc5MzAyN1oiPgogICAgPGluZm8+CiAgICAgIDxtZXRhZGF0"
+			"YSBvd25lcj0iaHR0cDovL2ZyZWVkZXNrdG9wLm9yZyI+CiAgICAgICAgPG1pbWU6bWltZS10eXBl"
+			"IHR5cGU9ImFwcGxpY2F0aW9uL3BkZiIvPgogICAgICAgIDxib29rbWFyazphcHBsaWNhdGlvbnM+"
+			"CiAgICAgICAgICA8Ym9va21hcms6YXBwbGljYXRpb24gbmFtZT0iRG9jdW1lbnQgVmlld2VyIiBl"
+			"eGVjPSImYXBvcztvcmcuZ25vbWUuRXZpbmNlICV1JmFwb3M7IiBtb2RpZmllZD0iMjAyNS0wNi0y"
+			"NlQyMDo1NDo0Ni43OTMwMzBaIiBjb3VudD0iMSIvPgogICAgICAgICAgPGJvb2ttYXJrOmFwcGxp"
+			"Y2F0aW9uIG5hbWU9IkZpcmVmb3giIGV4ZWM9IiZhcG9zO2ZpcmVmb3ggJXUmYXBvczsiIG1vZGlm"
+			"aWVkPSIyMDI1LTA2LTI2VDIwOjU2OjExLjYyMjM5OVoiIGNvdW50PSIxIi8+CiAgICAgICAgPC9i"
+			"b29rbWFyazphcHBsaWNhdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAFgzXwAAgOGKWDNfAABzAAAAZQAAAAAAAAB0AAAAAAAAAAAAAADg24pY"
+			"M18AAODbilgzXwAAAAAAAAAAAAAY3IpYM18AAA0AAAAAAAAAQ2FwYWNpdG9yX1NNRAAAADjcilgz"
+			"XwAACwAAAAAAAABDUF9FbGVjXzV4MwAxAAAAWNyKWDNfAAAAAAAAAAAAAAAAAABvAAAAYwAAAGgA"
+			"AAAAAAAAAQAAAGADAAAAAAAAQAAAAAAAAAAdVL+rNl8AAGUAAABjAAAAdAAAAHIAAABvAAAAbAAA"
+			"AHkAAAB0AAAAaQAAAGMAAACgAwAAAAAAAEAAAAAAAAAA/Vm/qzZfAABfAAAAZQAAAGwAAABlAAAA"
+			"YwAAAF8AAAA1AAAAeAAAADMAAAAAAAAAbAAAAC0AAABxAAAAAAAAAHDkilgzXwAA0N2KWDNfAABs"
+			"AAAAZQAAAGMAAABfAAAANQAAAHgAAAAzAAAALgAAADkAAAAAAAAAMQAAAAAAAABAQihXM18AAHDY"
+			"ilgzXwAAYwAAAGkAAAB0AAAAbwAAAFAEAAAAAAAAcAAAAAAAAAANUL+rNl8AAHAAAABhAAAAYwAA"
+			"AGkAAAB0AAAAbwAAAHIAAAAgAAAAZQAAAGwAAABlAAAAYwAAAHQAAAByAAAAbwAAAGwAAAB5AAAA"
+			"dAAAAGkAAABjAAAAAAAAAF8AAABDAAAAUwAAAMEyAAAAAAAAAH/6UDNfAAAg68/vlnwAAAAAAAAA"
+			"AAAAAAAAAAAAAABjAAAAaQAAAHQAAABvAAAAcgAAACwAAAAgAAAAYQAAAGwAAAB1AAAAbQAAAGkA"
+			"AABuAAAAdQAAAG0AAAAgAAAAZQAAAGwAAABlAAAAYwAAAHQAAAByAAAAbwAAAGwAAAB5AAAAdAAA"
+			"AGkAAABjAAAALAAAACAAAABOAAAAaQAAAGMAAABoAAAAaQAAAGMAAABvAAAAbgAAACwAAAAgAAAA"
+			"NQAAAC4AAAAwAAAAeAAAADMAAAAuAAAAOQAAAG0AAABtAAAAAAAAAMECAAAAAAAAoOC5VzNfAABg"
+			"5YpYM18AAGMAAABhAAAAcAAAAGEAAABjAAAAaQAAAHQAAABvAAAAcgAAACwAAAAgAAAAYQAAAGwA"
+			"AAB1AAAAbQAAAGkAAABuAAAAdQAAAG0AAAAgAAAAZQAAAGwAAABlAAAAYwAAAHQAAAByAAAAbwAA"
+			"AGwAAAB5AAAAdAAAAGkAAABjAAAALAAAACAAAABuAAAAaQAAAGMAAABoAAAAaQAAAGMAAABvAAAA"
+			"bgAAACwAAAAgAAAANQAAAC4AAAAwAAAAeAAAADMAAAAuAAAAMAAAAG0AAADwAAAAAAAAANABAAAA"
+			"AAAAwNyKWDNfAAALAAAAAA=="
 		)
 	)
 	(symbol
@@ -3124,6 +3755,49 @@
 			(project "usb3-gmm7550"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.225 182.245)
+		(size 12.7 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "60a01b67-a296-4e5c-ae04-350714992f76")
+		(property "Sheetname" "USB PD"
+			(at 22.225 181.5334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb3-pd.kicad_sch"
+			(at 22.225 191.7196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "usb3-gmm7550"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "8")
 				)
 			)
 		)

@@ -3559,6 +3559,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+2V5"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+2V5"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+2V5\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+2V5_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+2V5_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3VP"
 			(power)
 			(pin_names
@@ -4989,7 +5114,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 69.85) (xy 87.63 69.85)
+			(xy 76.2 69.85) (xy 92.71 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5709,16 +5834,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 163.83) (xy 109.22 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7a2487f-3a96-41e2-be9c-24392c7c8a2c")
-	)
-	(wire
-		(pts
 			(xy 50.8 182.88) (xy 50.8 187.96)
 		)
 		(stroke
@@ -6066,16 +6181,6 @@
 			(type default)
 		)
 		(uuid "cff5440d-c20a-4f7f-9112-3fe84b1d81bd")
-	)
-	(wire
-		(pts
-			(xy 100.33 139.7) (xy 109.22 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d208b520-a6ce-4927-add7-82ba42e75281")
 	)
 	(wire
 		(pts
@@ -6429,7 +6534,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 69.85) (xy 41.91 69.85)
+			(xy 26.67 69.85) (xy 41.91 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7630,7 +7735,61 @@
 			"AAAFAAAAAAAAAKjrVxqFYgAABQAAAAAAAABUaW1lcgAAAAAAAAAAAAAAyOtXGoViAAAHAAAAAAAA"
 			"AElDTTcyMDkAAAAAAAAAAADo61cahWIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA"
 			"oDYAAAAAAABwAAAAAAAAAP5fBjKDYgAAYwAAAGsAAABhAAAAZwAAAGUAAABfAAAARAAAAEkAAABQ"
-			"AAAAOgAAAEQAAABJAAAAUA=="
+			"AAAAOgAAAEQAAABJAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAF8AAABlAAAAcAAAADYAAAAuAAAANAAAADUAAAB4AAAANgAAAC4A"
+			"AAA0AAAANQAAAG0AAABtAAAAAAAAAAAAAADwBwAAAAAAAFAAAAAAAAAADt3koDZfAABjAAAAMQAA"
+			"ADgAAABsAAAAZgAAADQAAAA1AAAAawAAADgAAAAwAAAALQAAAGkAAABtAAAAbAAAAAAAAAAAAAAA"
+			"YR8AAAAAAAAA29FTM18AACC20VMzXwAAAAAAAAAAAAAAAAAAAAAAAHAAAAAgAAAAbQAAAGkAAABj"
+			"AAAAcgAAAG8AAABjAAAAbwAAAG4AAAB0AAAAcgAAAG8AAABsAAAAbAAAAGUAAAByAAAAIAAAAHAA"
+			"AABpAAAAYwAAADEAAAA4AAAAIAAAAGYAAABsAAAAYQAAAHMAAABoAAAAIAAAAGUAAABjAAAAYQAA"
+			"AG4AAAAgAAAAeAAAAGwAAABwAAAAIAAAAG4AAABhAAAAbgAAAG8AAAB3AAAAYQAAAHQAAAB0AAAA"
+			"AAAAAAAAAAAAAAAA8QAAAAAAAADAUtFTM18AAOBC0VMzXwAAbwAAAGMAAABoAAAAaQAAAHAAAAAg"
+			"AAAAbQAAAGkAAABjAAAAcgAAAG8AAABjAAAAbwAAAG4AAAB0AAAAcgAAAG8AAABsAAAAbAAAAGUA"
+			"AAByAAAAIAAAAHAAAABpAAAAYwAAADEAAAA4AAAAIAAAAGYAAABsAAAAYQAAAHMAAABoAAAAIAAA"
+			"AGUAAABjAAAAYQAAAG4AAAAgAAAAeAAAAGwAAABwAAAAIAAAAG4AAABhAAAAbgAAAG8AAAB3AAAA"
+			"YQAAAHQAAAB0AAAAAAAAAOABAAAAAAAAkAEAAAAAAAAzAAAAMgAAAEsAAAAgAAAARgAAAGwAAABh"
+			"AAAAcwAAAGgAAAAsAAAAIAAAADMAAAAuAAAANQAAAEsAAAAgAAAAUgAAAEEAAABNAAAALAAAACAA"
+			"AAAxAAAASwAAACAAAABFAAAARQAAAFAAAABSAAAATwAAAE0AAAAgAAAAUAAAAEkAAABDAAAAMQAA"
+			"ADgAAAAgAAAATQAAAGkAAABjAAAAcgAAAG8AAABjAAAAbwAAAG4AAAB0AAAAcgAAAG8AAABsAAAA"
+			"bAAAAGUAAAByAAAAIAAAAEEAAABEAAAAQwAAACAAAABQAAAAVwAAAE0AAAAgAAAAQwAAAEEAAABO"
+			"AAAAIAAAAFMAAABQAAAASQAAACAAAABJAAAAMgAAAEMAAAAgAAAAVQAAAFMAAABBAAAAUgAAAFQA"
+			"AAAgAAAAaQAAAG4AAAAgAAAAVAAAAFEAAABGAAAAUAAAADQAAAA0AAAAIAAAAHAAAABhAAAAYwAA"
+			"AGsAAABhAAAAZwAAAGUAAA=="
 		)
 	)
 	(image
@@ -9334,6 +9493,60 @@
 			"AAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAZQAAAGQAAAAgAAAAdwAAAGkAAAB0AAAAaAAAACAAAABrAAAAaQAAAGMA"
+			"AABhAAAAZAAAAC0AAABmAAAAbwAAAG8AAAB0AAAAcAAAAHIAAABpAAAAbgAAAHQAAAAtAAAAZwAA"
+			"AGUAAABuAAAAZQAAAHIAAABhAAAAdAAAAG8AAAByAAAAIAAAAGkAAABwAAAAYwAAAF8AAABuAAAA"
+			"bwAAAEwAAABlAAAAYQAAAGQAAABfAAAAZwAAAGUAAABuAAAAZQAAAHIAAABhAAAAdAAAAG8AAABy"
+			"AAAALgAAAHAAAAB5AAAAAAAAADNfAADRBQAAAAAAAGBCNVEzXwAAEC09UTNfAAAAAAAAAAAAAAAA"
+			"AAAAAAAAIAAAAHAAAABpAAAAbgAAACAAAAAoAAAAaAAAAHQAAAB0AAAAcAAAADoAAAAvAAAALwAA"
+			"AHcAAAB3AAAAMQAAAC4AAABtAAAAaQAAAGMAAAByAAAAbwAAAGMAAABoAAAAaQAAAHAAAAAuAAAA"
+			"YwAAAG8AAABtAAAALwAAAGQAAABvAAAAdwAAAG4AAABsAAAAbwAAAGEAAABkAAAAcwAAAC8AAABl"
+			"AAAAbgAAAC8AAABkAAAAZQAAAHYAAABpAAAAYwAAAGUAAABkAAAAbwAAAGMAAAAvAAAAMAAAADAA"
+			"AAAwAAAAMAAAADEAAAA3AAAAMgAAADUAAABkAAAALgAAAHAAAABkAAAAZgAAACAAAAAoAAAAcAAA"
+			"AGEAAABnAAAAZQAAACAAAAA5AAAAKQAAACkAAAAsAAAAIAAAAGcAAABlAAAAbgAAAGUAAAByAAAA"
+			"YQAAAHQAAABlAAAAZAAAACAAAAB3AAAAaQAAAHQAAABoAAAAIAAAAGsAAABpAAAAYwAAAGEAAABk"
+			"AAAALQAAAGYAAABvAAAAbwAAAHQAAABwAAAAcgAAAGkAAABuAAAAdAAAAC0AAABnAAAAZQAAAG4A"
+			"AABlAAAAcgAAAGEAAAB0AAAAbwAAAHIAAAAgAAAAaQAAAHAAAABjAAAAXwAAAG4AAABvAAAAbAAA"
+			"AGUAAABhAAAAZAAAAF8AAABnAAAAZQAAAG4AAABlAAAAcgAAAGEAAAB0AAAAbwAAAHIAAAAuAAAA"
+			"cAAAAHkAAAAAAAAAcAIAAAAAAADQAQAAAAAAAHAVPVEzXwAAGAAAAAAAAAAYAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAABXwAAIBY9UTNfAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAABAAAAAEAAACgFD1RM18AAAYAAAAAAAAABgAAAAAAAAAhAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAA=="
 		)
 	)
@@ -9507,16 +9720,6 @@
 		)
 		(uuid "6f35127b-3970-4868-a01b-5bcb1aa3b897")
 	)
-	(label "VIO_2.5V"
-		(at 100.33 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "75e018d8-86ff-4c5f-b3c5-9da254523a61")
-	)
 	(label "IO_SA_B2"
 		(at 31.75 90.17 0)
 		(effects
@@ -9657,16 +9860,6 @@
 		)
 		(uuid "dc79cc08-a84e-41f3-8efc-9e58c5624921")
 	)
-	(label "VIO_2.5V"
-		(at 100.33 163.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e2bc7d8a-3922-4a23-a2d7-7dbc52a6fcdd")
-	)
 	(label "IO_SA_B1"
 		(at 31.75 97.79 0)
 		(effects
@@ -9761,50 +9954,6 @@
 			)
 		)
 	)
-	(global_label "VIO_2V5"
-		(shape passive)
-		(at 87.63 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "72431b9f-19ef-4724-a105-24c643eaf63f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.5076 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIO_2V5"
-		(shape passive)
-		(at 173.99 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8f8b7cb9-c750-4afa-b27a-6a6707cc06aa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.1124 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IO_SB_A7"
 		(shape bidirectional)
 		(at 31.75 57.15 180)
@@ -9818,50 +9967,6 @@
 		(uuid "90e472f5-44e6-424d-80a9-e23c27a35ba4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 19.8184 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIO_2V5"
-		(shape passive)
-		(at 31.75 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bb09046e-d929-4bb1-9e52-799b8097d79d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.8724 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIO_2V5"
-		(shape passive)
-		(at 173.99 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bbf0ac05-aec2-4c0e-82f4-98d69504a031")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.1124 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11449,6 +11554,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+2V5")
+		(at 173.99 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b1e918e-76d9-4e9d-9ff7-ba220f44a3b6")
+		(property "Reference" "#PWR?"
+			(at 173.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VIO_2V5"
+			(at 173.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+2V5\""
+			(at 173.99 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93eaaa52-157f-40bd-85e9-b37296bc60ac")
+		)
+		(instances
+			(project "usb3-gmm7550"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f64194f6-bd89-48d7-b679-27d03ada473d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 204.47 115.57 0)
 		(unit 1)
@@ -11913,6 +12084,72 @@
 			(project "usb-gmm7550"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f64194f6-bd89-48d7-b679-27d03ada473d"
 					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+2V5")
+		(at 92.71 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79216706-1ba9-4a76-8209-be091dd7c881")
+		(property "Reference" "#PWR?"
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VIO_2V5"
+			(at 92.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+2V5\""
+			(at 92.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73b2e278-1c05-469b-829c-5d9a691ba9ca")
+		)
+		(instances
+			(project "usb3-gmm7550"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f64194f6-bd89-48d7-b679-27d03ada473d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -13547,6 +13784,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+2V5")
+		(at 109.22 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c05cbe1b-9a3d-44fa-87b7-ebb34a06ff40")
+		(property "Reference" "#PWR?"
+			(at 109.22 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VIO_2V5"
+			(at 109.22 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+2V5\""
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72113e7b-7ebc-4a99-934c-212888e09617")
+		)
+		(instances
+			(project "usb3-gmm7550"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f64194f6-bd89-48d7-b679-27d03ada473d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Small_Filled")
 		(at 248.92 139.7 90)
 		(unit 1)
@@ -14029,6 +14332,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+2V5")
+		(at 26.67 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed37d726-3320-4d81-9a9a-0bb728055ae4")
+		(property "Reference" "#PWR?"
+			(at 26.67 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VIO_2V5"
+			(at 26.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+2V5\""
+			(at 26.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3671668e-36c6-4b16-b7f4-06b2aaad3080")
+		)
+		(instances
+			(project "usb3-gmm7550"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f64194f6-bd89-48d7-b679-27d03ada473d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 191.77 68.58 0)
 		(unit 1)
@@ -14293,6 +14662,72 @@
 		)
 		(instances
 			(project "usb-gmm7550"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f64194f6-bd89-48d7-b679-27d03ada473d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+2V5")
+		(at 173.99 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc6ba0a4-cc0b-4eb0-9aba-fbdd847ffb73")
+		(property "Reference" "#PWR?"
+			(at 173.99 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VIO_2V5"
+			(at 173.99 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+2V5\""
+			(at 173.99 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4035026-1a2d-49eb-a156-e8af23437307")
+		)
+		(instances
+			(project "usb3-gmm7550"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f64194f6-bd89-48d7-b679-27d03ada473d"
 					(reference "#PWR?")
 					(unit 1)
