@@ -3762,6 +3762,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Vishay:SiP32510"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4665,6 +4815,12 @@
 		(uuid "75a90bf2-203e-4b6c-be90-447a4953324e")
 	)
 	(junction
+		(at 106.68 113.665)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "774c4a58-182e-4987-80bc-500b884468b8")
+	)
+	(junction
 		(at 137.16 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4802,6 +4958,12 @@
 		(color 0 0 0 0)
 		(uuid "fcc547ba-4d0e-4d0f-996c-ba36a8d9eda3")
 	)
+	(junction
+		(at 114.3 100.965)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fda3b56b-5c0e-4110-9835-b10485d2b00e")
+	)
 	(no_connect
 		(at 245.11 80.01)
 		(uuid "104f385f-9511-4d84-9648-09f392861699")
@@ -4821,6 +4983,16 @@
 	(no_connect
 		(at 224.79 69.85)
 		(uuid "ee2dd131-fc02-4782-8c57-bac8ba6aabce")
+	)
+	(wire
+		(pts
+			(xy 114.3 113.665) (xy 106.68 113.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00923434-d20d-414f-9ec3-37276f4f1e17")
 	)
 	(wire
 		(pts
@@ -5114,6 +5286,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 100.965) (xy 114.3 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "197b0531-a617-4b80-8d48-99a4ffd415b8")
+	)
+	(wire
+		(pts
 			(xy 246.38 67.31) (xy 245.11 67.31)
 		)
 		(stroke
@@ -5214,7 +5396,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 101.6) (xy 118.11 101.6)
+			(xy 106.68 100.965) (xy 114.3 100.965)
 		)
 		(stroke
 			(width 0)
@@ -5231,6 +5413,16 @@
 			(type default)
 		)
 		(uuid "2ad685b4-f066-4e69-945c-7983cc2abc00")
+	)
+	(wire
+		(pts
+			(xy 114.3 100.965) (xy 127.635 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b3fe64c-68ca-4cfa-83d2-306a5e26024a")
 	)
 	(wire
 		(pts
@@ -5384,7 +5576,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 113.03) (xy 106.68 115.57)
+			(xy 106.68 113.03) (xy 106.68 113.665)
 		)
 		(stroke
 			(width 0)
@@ -6094,7 +6286,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 102.87) (xy 106.68 101.6)
+			(xy 106.68 102.87) (xy 106.68 100.965)
 		)
 		(stroke
 			(width 0)
@@ -6211,6 +6403,16 @@
 			(type default)
 		)
 		(uuid "b5911fce-6077-48b5-af6a-2e644dc9983b")
+	)
+	(wire
+		(pts
+			(xy 106.68 113.665) (xy 106.68 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ff7967-2368-4b2a-a2b8-62d215b73549")
 	)
 	(wire
 		(pts
@@ -6581,6 +6783,16 @@
 			(type default)
 		)
 		(uuid "e33c471b-d535-43e7-a7ae-8fc0988b390f")
+	)
+	(wire
+		(pts
+			(xy 114.3 113.03) (xy 114.3 113.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e606d1f9-e13f-41b9-ac00-468b343e1d03")
 	)
 	(wire
 		(pts
@@ -7899,7 +8111,25 @@
 			"OgAAAAAAAAAAAAAAAAAAAAAAAACINh1UM18AAAAAAAAAAAAAAAAAAG8AAABjAAAAcwAAAAAAAAAA"
 			"AAAAAAAAAAAAAAA8AAAAZQAAALA6HVQzXwAAODwdVDNfAABwPB1UM18AAHAAAAByAAAAAAAAAG4A"
 			"AAAAAAAAAAAAANA2HVQzXwAA0DYdVDNfAAAAAAAAAAAAADAwHVQzXwAAEQAAAAAAAAAeAAAAAAAA"
-			"AHAAAAByAAAAkDcdVDNfAA=="
+			"AHAAAAByAAAAkDcdVDNfAABvAAAAcgAAAFAAAABxAAAAZAAAAFYAAABzAAAAYgAAADgAAAA5AAAA"
+			"ZAAAADQAAABsAAAAMgAAAGEAAAAyAAAANAAAAHoAAABUAAAANwAAAG4AAABOAAAAZAAAADUAAABY"
+			"AAAAbQAAAHEAAABhAAAAUAAAAHMAAABYAAAATAAAAFgAAAAxAAAALwAAAGgAAABDAAAAYQAAAHEA"
+			"AAB0AAAANwAAAFMAAABaAAAAcgAAAHQAAABKAAAAWAAAAEcAAAB0AAAAaQAAADMAAAAxAAAATAAA"
+			"AHkAAAB3AAAALwAAAE8AAAA3AAAAYwAAADkAAABzAAAATAAAAC8AAAA3AAAAcwAAADYAAAA2AAAA"
+			"KwAAAHEAAABzAAAAZQAAAHAAAABNAAAAMwAAAGsAAABlAAAAagAAAFcAAABRAAAAaQAAAE4AAAB2"
+			"AAAAUgAAADgAAABZAAAAZQAAAEIAAABhAAAARwAAAHcAAAAxAAAAVwAAAEcAAABTAAAANgAAAGkA"
+			"AAA4AAAAMQAAAHMAAAAxAAAATgAAAGYAAABiAAAAUQAAAFoAAABDAAAAZwAAAFkAAAB5AAAARAAA"
+			"AEEAAABNAAAAdwAAAHoAAABBAAAATQAAAHcAAAB6AAAAQgAAAE0AAABVAAAAcgAAAEYAAAB2AAAA"
+			"TwAAADYAAAB3AAAAbAAAAFgAAABUAAAAcwAAADYAAAA2AAAAOQAAAFAAAABqAAAAaAAAAGEAAABM"
+			"AAAANwAAAGYAAAA2AAAASQAAAFUAAABDAAAAcwAAAGYAAABJAAAAbAAAAGsAAABLAAAAaAAAAE4A"
+			"AABzAAAAeAAAAHMAAABpAAAAeAAAAFYAAABwAAAASQAAAGwAAABaAAAARQAAACsAAABkAAAAcgAA"
+			"AE0AAABsAAAAbAAAAGcAAAA2AAAAOQAAAHEAAABNAAAAUwAAAFkAAABWAAAAcwAAAHMAAABBAAAA"
+			"RAAAAGoAAAA4AAAAawAAAE0AAAB2AAAAdwAAADQAAAB6AAAATgAAAGUAAABEAAAAMwAAAGkAAABW"
+			"AAAASAAAAEUAAABkAAAAdgAAAGoAAABVAAAAVwAAAGsAAABxAAAAVQAAAHMAAAAyAAAAagAAAGwA"
+			"AABFAAAAMgAAADcAAAB2AAAAbQAAADMAAAAvAAAAdAAAAHgAAAA5AAAAMgAAAEEAAABSAAAANAAA"
+			"AHYAAABMAAAAbAAAAEIAAABvAAAAcAAAADcAAABhAAAARwAAAE4AAABjAAAAcAAAAC8AAABQAAAA"
+			"dwAAADYAAABQAAAAVAAAAGUAAABJAAAANAAAAGYAAABZAAAAcgAAAGMAAABVAAAAcwAAAHMAAAB3"
+			"AAAATwAAAEoAAAB0AAAAcw=="
 		)
 	)
 	(image
@@ -9657,11 +9887,29 @@
 			"AAAAAJABAAAAAAAA2EvWW5Z8AAAQ+CtXM18AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAF"
 			"AAAA/////wAAAAAwlx5UM18AADsAAAAAAAAAOwAAAAAAAAB4AAAAeAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAQph5UM18AAE4AAAAAAAAATgAAAAAAAAB4AAAAeAAAAAAAAAAAAAAAAAAAAAAAAAAYvR5UM18A"
-			"AAAAAAAAAAAAAAAAAA=="
+			"AAAAAAAAAAAAAAAAAHAAAABrAAAATwAAAGIAAAA4AAAAbQAAAEwAAAA0AAAATAAAAGoAAAAzAAAA"
+			"NwAAAGgAAABIAAAAUwAAAFgAAABPAAAANQAAAEIAAABoAAAARAAAAEEAAABJAAAAagAAAEIAAABk"
+			"AAAAYgAAAHMAAABHAAAASAAAADYAAABaAAAAMQAAAGsAAAB3AAAAWgAAAEIAAABDAAAAZAAAAEkA"
+			"AABnAAAANAAAAGQAAAB1AAAAUgAAAEIAAABnAAAARQAAAFEAAABpAAAAKwAAAHUAAAA4AAAAVwAA"
+			"AHUAAAAwAAAAUwAAAEEAAABHAAAAUwAAAFgAAABFAAAAbAAAAEYAAAB0AAAAMgAAADkAAAAxAAAA"
+			"WAAAAGwAAAB5AAAAMQAAAGIAAAB4AAAAawAAAGMAAAAvAAAARwAAADcAAABwAAAAcQAAADUAAABh"
+			"AAAAcgAAAG4AAAB0AAAASAAAAGIAAABPAAAAWQAAAFkAAABJAAAAMQAAAFYAAABOAAAATwAAADcA"
+			"AAAyAAAALwAAAFMAAAA2AAAATAAAADMAAAA3AAAAbgAAAHYAAAA0AAAANgAAAHYAAABkAAAAaQAA"
+			"AEYAAABKAAAAeQAAADkAAAA1AAAANwAAAFAAAABkAAAASQAAAGcAAABpAAAAWgAAAFMAAABDAAAA"
+			"eAAAAEwAAABSAAAAOQAAAGQAAABOAAAARgAAAEQAAABPAAAAOQAAAHAAAABhAAAAeAAAAHYAAABl"
+			"AAAAVwAAADMAAAAxAAAARAAAAHQAAABOAAAASQAAAGgAAAB0AAAATAAAAFUAAABrAAAAawAAAE0A"
+			"AABKAAAASwAAAGEAAAB1AAAAQwAAAFkAAABOAAAAawAAAHEAAAA0AAAAcwAAAHAAAABVAAAARwAA"
+			"AHMAAABGAAAAdgAAAHEAAABLAAAAUgAAAFUAAABpAAAARAAAADUAAABIAAAAUAAAAHQAAAA3AAAA"
+			"awAAAFgAAABIAAAAdgAAAHYAAABoAAAAeQAAAHoAAABtAAAAbAAAAHQAAAArAAAATQAAAC8AAAAx"
+			"AAAAQgAAAEsAAABxAAAAcAAAADQAAABIAAAAYgAAAGwAAABrAAAAagAAAGkAAABIAAAAcAAAADUA"
+			"AAA0AAAARwAAAHMAAABhAAAAZwAAAEYAAAAvAAAAcAAAAEoAAABLAAAAZwAAADUAAABnAAAAZwAA"
+			"AEQAAABRAAAASwAAAGcAAABJAAAAVwAAAGoAAABaAAAAZQAAADgAAABQAAAAbAAAAFMAAAAvAAAA"
+			"aQAAAG8AAABHAAAAdwAAAEQAAABCAAAAdAAAAE8AAABTAAAAMgAAAFQAAABqAAAANQAAADAAAABV"
+			"AAAANwAAAFgAAABMAA=="
 		)
 	)
 	(label "GMM_NMR"
-		(at 118.11 101.6 180)
+		(at 127.635 100.965 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9812,7 +10060,7 @@
 			)
 		)
 	)
-	(global_label "ADC_VIN"
+	(global_label "ADC_V"
 		(shape output)
 		(at 166.37 181.61 0)
 		(fields_autoplaced yes)
@@ -9824,7 +10072,7 @@
 		)
 		(uuid "01d7448d-3bc6-4488-bc51-6589b855bce6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.3211 181.61 0)
+			(at 175.04 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9878,7 +10126,7 @@
 			)
 		)
 	)
-	(global_label "ADC_IIN"
+	(global_label "ADC_I"
 		(shape output)
 		(at 166.37 161.29 0)
 		(fields_autoplaced yes)
@@ -9890,7 +10138,7 @@
 		)
 		(uuid "1e5937d3-499b-4da5-a158-43c46622c1cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.8373 161.29 0)
+			(at 174.5562 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10689,6 +10937,76 @@
 			(project "usb-gmm7550"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4dd06c90-d12c-4c42-8562-52746751e571"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 114.3 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d39456e-715f-4178-b209-12594fb05527")
+		(property "Reference" "SW1"
+			(at 118.745 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 118.745 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pts810:SW_SPST_PTS810"
+			(at 119.38 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d53955f0-c600-4137-bbfa-d6f5f839d66e")
+		)
+		(pin "2"
+			(uuid "f60b8fc9-54f1-4ec7-898f-df7392b7d6a5")
+		)
+		(instances
+			(project "usb3-gmm7550"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4dd06c90-d12c-4c42-8562-52746751e571"
+					(reference "SW1")
 					(unit 1)
 				)
 			)

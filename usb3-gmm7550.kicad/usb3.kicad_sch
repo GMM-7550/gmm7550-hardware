@@ -4919,12 +4919,6 @@
 		(uuid "53628c10-5b20-4fc2-89db-a16d8188e4ff")
 	)
 	(junction
-		(at 57.15 56.515)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d379fbf-bfe8-4031-ad9e-9607a0d330b8")
-	)
-	(junction
 		(at 226.06 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4995,6 +4989,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd896812-a58c-4165-81fc-6c9ac7ae6c85")
+	)
+	(junction
+		(at 57.15 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea59ab48-1388-4ea3-9650-a807914bf6b2")
 	)
 	(junction
 		(at 219.71 143.51)
@@ -5161,16 +5161,6 @@
 			(type default)
 		)
 		(uuid "1ab64e20-7550-48bf-b2ec-f7eba79e187d")
-	)
-	(wire
-		(pts
-			(xy 57.15 58.42) (xy 57.15 56.515)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ca2fb49-861e-40da-b380-ac60b829b546")
 	)
 	(wire
 		(pts
@@ -5864,7 +5854,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 56.515) (xy 57.15 56.515)
+			(xy 59.69 55.88) (xy 57.15 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6364,7 +6354,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 50.8) (xy 59.69 56.515)
+			(xy 59.69 50.8) (xy 59.69 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6654,7 +6644,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 55.88) (xy 57.15 56.515)
+			(xy 57.15 55.88) (xy 57.15 58.42)
 		)
 		(stroke
 			(width 0)
@@ -8599,7 +8589,25 @@
 			"blUzXwAAMC1uVTNfAABAAAAAAAAAACAAAAAAAAAAgLxYpjZfAAAAAAAAAAAAAGAAAAAAAAAAIAAA"
 			"AAAAAABwrVimNl8AAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAHAcblUzXwAAYOptVTNfAABgAQAA"
 			"AAAAAFAAAAAAAAAA8FlbpjZfAAAAAAAAAAAAAAAAAAAAAAAAoNIE85Z8AAAAAACAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAA=="
+			"AAAAAAAAAAAAAAAAAAAAZwAAADMAAAB6AAAAZAAAADYAAAAyAAAAeQAAAEQAAABCAAAAeQAAAGMA"
+			"AABIAAAAMgAAAE8AAABKAAAAYgAAAEEAAABPAAAAVgAAAEoAAAAzAAAAVwAAADEAAAB2AAAAdAAA"
+			"AEEAAABaAAAAWgAAAHAAAABnAAAANQAAAGkAAABkAAAAMAAAAHgAAABOAAAAMAAAAEMAAABqAAAA"
+			"SgAAAEsAAAAxAAAATQAAAEUAAABwAAAATwAAAG4AAABNAAAASQAAAFMAAABBAAAAVwAAAGMAAABD"
+			"AAAAegAAAHcAAABMAAAAMAAAADkAAABNAAAAZQAAAEwAAABMAAAAZAAAAC8AAABPAAAAdwAAAE4A"
+			"AAB0AAAAZQAAAE0AAABEAAAARQAAAEYAAABuAAAAMQAAAFcAAAB0AAAAYwAAAEYAAAB4AAAAUQAA"
+			"ADQAAABzAAAAUQAAAFUAAAA5AAAAVAAAACsAAABhAAAAegAAAGgAAAAyAAAAVwAAAFoAAABFAAAA"
+			"QgAAAEQAAABFAAAAcwAAAEQAAABMAAAAbAAAAGEAAABQAAAAWQAAAFQAAABHAAAARAAAAE0AAABs"
+			"AAAAdwAAAGoAAAB4AAAAbgAAAFMAAABPAAAATQAAAGIAAABFAAAAaAAAAGgAAABmAAAASwAAAE4A"
+			"AAB3AAAAVgAAAEsAAABUAAAAdAAAAEQAAAByAAAAdwAAAFMAAAB3AAAATAAAAFcAAABuAAAAOAAA"
+			"AEYAAAB2AAAAcwAAAHAAAABJAAAAQwAAAEkAAAB3AAAAcAAAAGoAAABBAAAAQQAAAFMAAABrAAAA"
+			"SQAAADkAAABlAAAAdgAAAC8AAABQAAAAdgAAAEoAAABZAAAAYQAAADMAAAB6AAAATgAAADAAAAB6"
+			"AAAAagAAAE0AAAB4AAAAbgAAAFIAAABBAAAASQAAADEAAABJAAAAWgAAAFUAAABTAAAATQAAADgA"
+			"AABvAAAAbQAAAEkAAABBAAAAbwAAAGUAAAB1AAAATwAAADcAAABUAAAAdQAAAFgAAABTAAAAVAAA"
+			"AGUAAAA4AAAARwAAAGUAAABzAAAAKwAAAHcAAABEAAAARwAAAE8AAABDAAAAZAAAAFYAAABJAAAA"
+			"UwAAAHAAAABxAAAAMAAAAHUAAAA2AAAAbwAAAHIAAABLAAAAcwAAAG4AAABoAAAAVQAAAGoAAABq"
+			"AAAAeAAAAEQAAABvAAAANQAAADgAAABVAAAAYgAAAGkAAAAvAAAATQAAAFUAAABPAAAAYQAAAHEA"
+			"AAA2AAAAcwAAAEsAAABTAAAALwAAAFgAAAB0AAAANAAAAEMAAABCAAAAYQAAADkAAAB4AAAAVQAA"
+			"AHUAAAAzAAAAcAAAAA=="
 		)
 	)
 	(image
@@ -9731,7 +9739,25 @@
 			"AAAXAQAA8Fo0UjNfAAAAAAAAAAAAAOMDAABJAAAA4wMAAEoAAAAAAAAAAAAAAKBhNFIzXwAAEGI0"
 			"UjNfAAAAAAAAKQAAACkAAAAAAAAAWFs0UjNfAADjAwAASgAAAOMDAABLAAAAAAAAAHIAAADgYTRS"
 			"M18AAJhiNFIzXwAAaGI0UjNfAABoYjRSM18AAGhiNFIzXwAAACEwUhQBAACwITBSM18AANAhMFIz"
-			"XwAAXAIAAA4AAABcAgAAEw=="
+			"XwAAXAIAAA4AAABcAgAAE0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFFQUxi"
+			"bFV6WHdBQXdFWGk4Slo4QUFDQkFBQUFBQUFBQUFBS2JsVXpYd0FBSU92UDc1WjhBQUJRQ201Vk0x"
+			"OEFBS0FEQnZPV2ZBQUFPUUFBQUFBQUFBQmdEWEZWTTE4QUFGRG1CUE9XZkFBQVFRQUFBQUFBQUFB"
+			"ZzVtMVZNMThBQUpDTndWSXpYd0FBQUFBQUFBQUFBQUFBQUFBQTdBQUFBQUFBQUFBQkFBSUFVQWh1"
+			"VlROZkFBREFBUUFBQUFBQUFGQUFBQUFBQUFBQVVGOWJwalpmQUFBd3d3WHpsbndBQVBBRmJsVXpY"
+			"d0FBTU80Rjg1WjhBQUNBQjI1Vk0xOEFBTUNBQnZPV2ZBQUFnQWR1VlROZkFBREFnQWJ6bG53QUFB"
+			"QUFBQUFBQUFBQU1RQUFBQUFBQUFDZ24yNVZNMThBQU5ENGJWVXpYd0FBMEtETThKWjhBQUR3Qlc1"
+			"Vk0xOEFBRUFDQUFBQUFBQQ=="
 		)
 	)
 	(global_label "CON_CC1"
@@ -9941,7 +9967,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02a32d29-339b-492b-8b75-9f544e16a819")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR?"
 			(at 63.5 45.72 0)
 			(effects
 				(font
@@ -9991,7 +10017,7 @@
 		(instances
 			(project "usb3-gmm7550"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/201c9a67-de5c-41f6-bf23-7bce60956be5"
-					(reference "#PWR06")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -10084,7 +10110,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "DNI"
 			(at 220.98 142.24 0)
 			(effects
 				(font
@@ -10213,7 +10239,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d0ece16-9428-46ac-b0a8-622cc76189b4")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR?"
 			(at 213.36 120.65 0)
 			(effects
 				(font
@@ -10263,7 +10289,7 @@
 		(instances
 			(project "usb3-gmm7550"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/201c9a67-de5c-41f6-bf23-7bce60956be5"
-					(reference "#PWR02")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -10491,7 +10517,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "10k"
 			(at 120.65 165.1 0)
 			(effects
 				(font
@@ -10858,7 +10884,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "DNI"
 			(at 214.63 142.24 0)
 			(effects
 				(font
@@ -11189,8 +11215,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 120.65 173.99 0)
+		(property "Value" "8.06k"
+			(at 120.65 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11258,7 +11284,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "DNI"
 			(at 233.68 142.24 0)
 			(effects
 				(font
@@ -11394,7 +11420,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "DNI"
 			(at 233.68 124.46 0)
 			(effects
 				(font
@@ -11454,7 +11480,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f886ef1-8871-4189-b3fc-50c44200dfbe")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR?"
 			(at 81.28 179.07 0)
 			(effects
 				(font
@@ -11504,7 +11530,7 @@
 		(instances
 			(project "usb3-gmm7550"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/201c9a67-de5c-41f6-bf23-7bce60956be5"
-					(reference "#PWR04")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -11619,7 +11645,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "DNI"
 			(at 227.33 124.46 0)
 			(effects
 				(font
@@ -11679,7 +11705,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9262a02f-2eea-4230-8e08-d1d6889fcb06")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR?"
 			(at 213.36 151.13 0)
 			(effects
 				(font
@@ -11729,7 +11755,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/201c9a67-de5c-41f6-bf23-7bce60956be5"
-					(reference "#PWR01")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12088,7 +12114,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "DNI"
 			(at 227.33 142.24 0)
 			(effects
 				(font
@@ -12351,7 +12377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b697b432-369c-4392-a427-41ca12078f7c")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR?"
 			(at 209.55 66.04 0)
 			(effects
 				(font
@@ -12401,7 +12427,7 @@
 		(instances
 			(project "usb3-gmm7550"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/201c9a67-de5c-41f6-bf23-7bce60956be5"
-					(reference "#PWR03")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12564,7 +12590,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "DNI"
 			(at 220.98 124.46 0)
 			(effects
 				(font
@@ -12693,7 +12719,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d684e5bf-0670-4128-9ed4-c973d1affd13")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR?"
 			(at 119.38 182.88 0)
 			(effects
 				(font
@@ -12743,7 +12769,7 @@
 		(instances
 			(project "usb3-gmm7550"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/201c9a67-de5c-41f6-bf23-7bce60956be5"
-					(reference "#PWR05")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -13114,7 +13140,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "DNI"
 			(at 214.63 124.46 0)
 			(effects
 				(font
