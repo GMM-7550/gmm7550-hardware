@@ -1,5 +1,12 @@
 # CologneChip GateMate FPGA Module: GMM-7550
 
+**July 2025 Update**
+
+An experimental USB 3 Adapter board schematic is ready for
+layout:
+
+[USB 3 Adapter revision 0.9](./doc/USB3-GMM-7550_0.9-2025-07-24.pdf)
+
 **January 2024 Update**
 
 The project repositories are moved to a dedicated account.
