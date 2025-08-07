@@ -874,7 +874,7 @@
 		(uuid "550db3ca-0b6a-4080-aec9-3a6fd4ceb02d")
 	)
 	(embedded_fonts no)
-	(model "/home/ak/Work/ccgm/tmp/Q/sn65lvds4/RSE0010A.stp"
+	(model "./RSE0010A.stp"
 		(offset
 			(xyz 0 0 0)
 		)

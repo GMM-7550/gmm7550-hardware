@@ -315,7 +315,7 @@
 		(uuid "d244902c-b0ba-442b-87af-f007f476a2e7")
 	)
 	(embedded_fonts no)
-	(model "/home/ak/Work/ccgm/tmp/Q/ecmf02/QFN-6L_STM.step"
+	(model "./QFN-6L_STM.step"
 		(offset
 			(xyz 0 0 0)
 		)

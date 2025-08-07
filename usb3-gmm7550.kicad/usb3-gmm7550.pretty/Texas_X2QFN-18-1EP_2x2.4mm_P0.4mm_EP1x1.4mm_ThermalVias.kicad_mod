@@ -407,7 +407,7 @@
 		(uuid "50640205-4982-4b3a-b3bc-a73c4f533663")
 	)
 	(embedded_fonts no)
-	(model "/home/ak/Work/ccgm/tmp/Q/tusb542/RWQ0018A.stp"
+	(model "./RWQ0018A.stp"
 		(offset
 			(xyz 0 0 0)
 		)

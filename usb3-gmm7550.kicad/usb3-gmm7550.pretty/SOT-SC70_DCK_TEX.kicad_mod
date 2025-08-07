@@ -471,7 +471,7 @@
 		(uuid "1ad9a45a-062c-44ac-9847-3be06218b90c")
 	)
 	(embedded_fonts no)
-	(model "/home/ak/Work/ccgm/tmp/Q/esd752/DCK0003A.stp"
+	(model "./DCK0003A.stp"
 		(offset
 			(xyz 0 0 0)
 		)

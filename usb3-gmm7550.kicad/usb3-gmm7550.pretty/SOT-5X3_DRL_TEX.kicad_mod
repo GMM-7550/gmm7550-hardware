@@ -327,7 +327,7 @@
 		(uuid "8b05e87f-c74a-40b9-b2f0-d05cb1b43e3b")
 	)
 	(embedded_fonts no)
-	(model "/home/ak/Work/ccgm/tmp/Q/lm66200/DRL0008A.stp"
+	(model "./DRL0008A.stp"
 		(offset
 			(xyz 0 0 0)
 		)

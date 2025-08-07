@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "GMM-7550 USB3 Adapter")
-		(date "2025-07-24")
-		(rev "0.9")
+		(date "2025-08-06")
+		(rev "0.9.1")
 	)
 	(lib_symbols
 		(symbol "+5V_1"
@@ -2666,7 +2666,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "ST_QFN40P220X135X50-10L"
+			(property "Footprint" "usb3-gmm7550:UQFN10L_1P4X2P25X0P4_STM"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2675,7 +2675,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/ecmf4-40a100n10.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2684,7 +2684,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Common mode filter with ESD protection for high speed serial interface"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4877,12 +4877,6 @@
 		(uuid "2697b6a9-1c53-4de1-b25a-3e1dc0852834")
 	)
 	(junction
-		(at 209.55 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b22dc06-2166-4794-9f70-9159d10b1a0e")
-	)
-	(junction
 		(at 57.15 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4961,6 +4955,12 @@
 		(uuid "a37e4d8e-e6cd-4a44-adbf-ef8991779c78")
 	)
 	(junction
+		(at 218.44 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ace9f01b-ee56-49a1-b230-e2e5c2b476a7")
+	)
+	(junction
 		(at 219.71 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4979,12 +4979,6 @@
 		(uuid "d349f640-c0f7-4abf-9630-cc065f98cb77")
 	)
 	(junction
-		(at 218.44 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc6d57c3-95a7-4f9b-b4b7-bebc42216ba7")
-	)
-	(junction
 		(at 60.96 107.315)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4997,10 +4991,28 @@
 		(uuid "ea59ab48-1388-4ea3-9650-a807914bf6b2")
 	)
 	(junction
+		(at 209.55 50.165)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef16bb24-24a0-4465-963f-44474ac45bdd")
+	)
+	(junction
 		(at 219.71 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f28d57f7-1bfe-4c65-bf74-75799f9ce1c0")
+	)
+	(junction
+		(at 209.55 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f39315ed-69f4-490f-9352-3483bf4493f6")
+	)
+	(junction
+		(at 209.55 51.435)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa70f888-036d-4578-9570-9d85375fc1e8")
 	)
 	(wire
 		(pts
@@ -5104,7 +5116,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 50.8) (xy 209.55 52.07)
+			(xy 209.55 49.53) (xy 209.55 50.165)
 		)
 		(stroke
 			(width 0)
@@ -5294,16 +5306,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 49.53) (xy 209.55 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fcecccd-8998-4d11-85b0-776a4af348ee")
-	)
-	(wire
-		(pts
 			(xy 138.43 83.82) (xy 200.66 83.82)
 		)
 		(stroke
@@ -5444,6 +5446,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.185 50.8) (xy 218.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46b27dcb-2d89-4e60-8ee5-5a8137424c9c")
+	)
+	(wire
+		(pts
 			(xy 99.06 21.59) (xy 99.06 24.13)
 		)
 		(stroke
@@ -5501,6 +5513,16 @@
 			(type default)
 		)
 		(uuid "4e612f54-4b72-4be1-8a0b-41500f0aad38")
+	)
+	(wire
+		(pts
+			(xy 200.66 52.07) (xy 200.66 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "517363a8-ab6e-4e28-9e6a-0fbf6299dbdf")
 	)
 	(wire
 		(pts
@@ -5574,6 +5596,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 50.165) (xy 209.55 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "569ca1e9-3bb1-461a-99a9-643f5ef1d4a5")
+	)
+	(wire
+		(pts
 			(xy 83.82 66.04) (xy 83.82 73.66)
 		)
 		(stroke
@@ -5581,6 +5613,16 @@
 			(type default)
 		)
 		(uuid "597c8d3a-aee4-4775-9704-04ba73cf8afa")
+	)
+	(wire
+		(pts
+			(xy 208.915 50.8) (xy 209.55 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59fb6176-cf2d-464f-bf38-91c84ad39496")
 	)
 	(wire
 		(pts
@@ -5621,6 +5663,16 @@
 			(type default)
 		)
 		(uuid "5f0735f8-9e4c-4c2f-b0e3-ce6902809b6b")
+	)
+	(wire
+		(pts
+			(xy 200.66 58.42) (xy 209.55 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608649e0-cde8-4a05-8170-d9633acface9")
 	)
 	(wire
 		(pts
@@ -6304,16 +6356,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 50.8) (xy 209.55 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab2f2334-5ac7-4ec9-8000-627d6a03b992")
-	)
-	(wire
-		(pts
 			(xy 99.06 60.96) (xy 99.06 62.23)
 		)
 		(stroke
@@ -6354,6 +6396,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 51.435) (xy 209.55 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff7120b-34fe-43f4-9d1e-ee2f1c2e1963")
+	)
+	(wire
+		(pts
 			(xy 59.69 50.8) (xy 59.69 55.88)
 		)
 		(stroke
@@ -6371,6 +6423,16 @@
 			(type default)
 		)
 		(uuid "b193d11d-bccb-4978-a1c5-f69139985508")
+	)
+	(wire
+		(pts
+			(xy 200.66 50.8) (xy 208.915 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c8ca6a-395e-4ed4-aff7-00b3b6dccfc0")
 	)
 	(wire
 		(pts
@@ -6454,6 +6516,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 57.15) (xy 200.66 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe4dc20-7db3-4ad1-92a0-7941617a68f0")
+	)
+	(wire
+		(pts
 			(xy 63.5 30.48) (xy 63.5 33.02)
 		)
 		(stroke
@@ -6481,6 +6553,16 @@
 			(type default)
 		)
 		(uuid "bd533400-0c69-4b0b-bde3-5596d0816d8f")
+	)
+	(wire
+		(pts
+			(xy 209.55 58.42) (xy 209.55 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc58160-e4d6-4123-858d-3c2ba63205d7")
 	)
 	(wire
 		(pts
@@ -6554,6 +6636,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.185 50.8) (xy 209.55 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbc28f5e-2b16-4927-ab84-80ebfb95ff70")
+	)
+	(wire
+		(pts
 			(xy 63.5 21.59) (xy 63.5 30.48)
 		)
 		(stroke
@@ -6614,7 +6706,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 57.15) (xy 209.55 59.69)
+			(xy 209.55 57.15) (xy 209.55 58.42)
 		)
 		(stroke
 			(width 0)
@@ -8625,7 +8717,43 @@
 			"AABvAAAAOAAAAC8AAABQAAAASwAAAFcAAABDAAAAdgAAAEgAAABqAAAATwAAAFcAAAB3AAAAUQAA"
 			"AHgAAAAyAAAAdwAAAFEAAAB6AAAAagAAAFcAAABLAAAAYQAAAEIAAAAwAAAASAAAAFYAAABTAAAA"
 			"VwAAAG4AAABRAAAARQAAAHEAAABpAAAASQAAAEgAAABrAAAARQAAAHIAAABuAAAAVgAAAGcAAABn"
-			"AAAAMwAAAGkAAABmAA=="
+			"AAAAMwAAAGkAAABmAAAAQQAAAG0AAAB3AAAAUQAAAC8AAAA1AAAAQQAAAHEAAABHAAAAeQAAAFIA"
+			"AABtAAAAZwAAADgAAABBAAAARwAAAEUAAABTAAAATQAAAFoAAABHAAAANAAAAFEAAABSAAAAaAAA"
+			"AGIAAAB1AAAANgAAAHEAAABPAAAATAAAAGEAAABjAAAAegAAAEEAAABBAAAAQQAAAHIAAAB3AAAA"
+			"SAAAAEkAAAB3AAAAcAAAAFUAAAAxAAAAYQAAADMAAAArAAAAbAAAADgAAABiAAAAcAAAAEQAAABN"
+			"AAAAYQAAAFkAAAA0AAAAcwAAAGsAAABMAAAAVQAAAEUAAAA2AAAAcQAAAHAAAABtAAAAaQAAAG4A"
+			"AAA3AAAAaQAAAC8AAABhAAAAdAAAAFgAAAA5AAAAeAAAAFgAAABYAAAAMAAAAHIAAABVAAAAZgAA"
+			"AGoAAABPAAAAWgAAAFcAAABXAAAAWAAAADMAAAArAAAAUgAAADIAAABXAAAAbgAAADUAAABnAAAA"
+			"NgAAAGQAAABLAAAAbAAAAE8AAABZAAAAMAAAAGoAAABwAAAAegAAAHoAAABQAAAARgAAAEoAAABv"
+			"AAAAZAAAAHkAAABGAAAASwAAADkAAABlAAAAaQAAACsAAAB0AAAATQAAAEsAAABJAAAAcAAAAEsA"
+			"AABuAAAAVgAAAHQAAAByAAAAcQAAAHAAAABkAAAASAAAAFMAAABKAAAAUwAAADcAAABxAAAAawAA"
+			"AHUAAABMAAAANgAAAGwAAAAwAAAATwAAAHkAAABuAAAAZwAAAEQAAABxAAAAegAAADcAAABLAAAA"
+			"YQAAADgAAABjAAAAWQAAAGoAAABRAAAAagAAAHgAAABKAAAAUgAAAC8AAABWAAAATgAAAFgAAABW"
+			"AAAARQAAAHoAAABIAAAAVwAAAEYAAABJAAAANQAAAEUAAABsAAAAdAAAADEAAABWAAAATQAAAGUA"
+			"AAA5AAAALwAAADMAAABNAAAANAAAAFAAAABnAAAARQAAAHoAAABBAAAAOQAAAFUAAABHAAAAUQAA"
+			"AGUAAABQAAAAeAAAAGcAAABnAAAALwAAAFQAAABlAAAAUQAAAE0AAABBAAAARwAAAGMAAABZAAAA"
+			"MQAAAGsAAABPAAAANAAAAEEAAABOAAAAdAAAADQAAAAxAAAAQQAAAEcAAAA3AAAAQgAAAGkAAABn"
+			"AAAAeAAAAEEAAABSAAAAdgAAAGYAAABiAAAAcAAAAFQAAAA1AAAAWAAAAEIAAABBAAAANAAAADQA"
+			"AABKAAAAagAAAFMAAABuAAAAOAAAAFIAAAB0AAAAQgAAAEcAAABxAAAAZwAAAEQAAABvAAAAbwAA"
+			"AHQAAAB2AAAAawAAAEMAAABvAAAAbgAAAHQAAAByAAAAbwAAAGwAAABsAAAAZQAAAHIAAAAgAAAA"
+			"MQAAAE0AAABIAAAAegAAACwAAAAgAAAARAAAAEkAAABQAAAALQAAADQAAAAwAAAAAAAAAGcAAABG"
+			"AAAAcQAAAAAAAABAa2OHbVkAAAD48ottWQAANAAAADUAAAAAAAAAAAAAADAAAAAAAAAAQAAAAAAA"
+			"AACp5HEQaFkAAHMAAABjAAAAcgAAAGkAAABwAAAAdAAAAGkAAABvAAAAbgAAAAAAAABgNAAAAAAA"
+			"AIAAAAAAAAAAiRK7EWhZAABjAAAAawAAAGEAAABnAAAAZQAAAF8AAABEAAAASQAAAFAAAAA6AAAA"
+			"RAAAAEkAAABQAAAALQAAADQAAAAwAAAAXwAAAFcAAAAxAAAANQAAAC4AAAAyAAAANAAAAG0AAABt"
+			"AAAAAAAAAHEAAABuAAAAUQQAAAAAAAAAc2OHbVkAACDrL/FodQAAAAAAAAAAAAAAAAAAAAAAAGUA"
+			"AAByAAAAAAAAAHYAAAA2AAAAOAAAAAEDAAAAAAAA4Gdjh21ZAABwkqmGbVkAAHAAAAByAAAAaQAA"
+			"AG4AAAAwAAAAAAAAADAAAAAAAAAA6fhxEGhZAABmAAAAZQAAAHIAAABlAAAAbgAAAGMAAABlAAAA"
+			"AAAAAKECAAAAAAAAgGtjh21ZAAAAc2OHbVkAAAAAAAAAAAAAAAAAAAAAAADwlqmGbVkAAAkAAAAA"
+			"AAAACQAAAAAAAABtAAAAWgAAAAAAAAAAAAAAAAAAAAAAAABwZmOHbVkAABsAAAAAAAAAGwAAAAAA"
+			"AABzAAAANQAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAFABAAAAAAAAaAAAAHQAAAB0AAAAcAAA"
+			"ADoAAAAvAAAALwAAAHAAAABkAAAAZgAAAC4AAABkAAAAYQAAAHQAAABhAAAAcwAAAGgAAABlAAAA"
+			"ZQAAAHQAAABjAAAAYQAAAHQAAABhAAAAbAAAAG8AAABnAAAALgAAAGMAAABvAAAAbQAAAC8AAABk"
+			"AAAAYQAAAHQAAABhAAAAcwAAAGgAAABlAAAAZQAAAHQAAABfAAAAcAAAAGQAAABmAAAALwAAAG0A"
+			"AABvAAAAdAAAAG8AAAByAAAAbwAAAGwAAABhAAAALwAAAE0AAABDAAAANgAAADgAAAA0AAAANQAA"
+			"AEwAAABfAAAAYQAAAG4AAABkAAAAXwAAAE0AAABDAAAANgAAADgAAAA0AAAANQAAAFAAAAAuAAAA"
+			"cAAAAGQAAABmAAAAAAAAAEEAAADgAQAAAAAAADAAAAAAAAAAmRm7EWhZAAA2AAAAOAAAAEEAAAA0"
+			"AAAANQAAAAAAAAB0AA=="
 		)
 	)
 	(image
@@ -9793,7 +9921,43 @@
 			"AABUAAAAeQAAAEcAAABXAAAAdAAAAFcAAABnAAAAOAAAAFEAAABOAAAAcQAAADAAAABHAAAAaQAA"
 			"ADEAAAB5AAAAYwAAAGoAAAB1AAAATAAAAGEAAAB1AAAAYQAAAHAAAAA0AAAAWQAAADIAAABPAAAA"
 			"YwAAAE0AAAA3AAAAYgAAAFQAAABoAAAARQAAAHoAAABtAAAARgAAAHIAAABKAAAATgAAAEkAAABB"
-			"AAAAegAAAFUAAABJAAAAQQ=="
+			"AAAAegAAAFUAAABJAAAAQQAAAE4AAABjAAAAMAAAAEMAAAB1AAAASgAAAC8AAABhAAAAMAAAAGYA"
+			"AAA1AAAAOAAAAGsAAABhAAAAcwAAAGEAAABPAAAAKwAAAFQAAABlAAAAVwAAAFQAAABzAAAARgAA"
+			"AGIAAAA1AAAATQAAAGMAAABrAAAAZwAAAFQAAABOAAAAVQAAAGgAAABOAAAANAAAAHgAAABmAAAA"
+			"aQAAAGsAAAA4AAAAMQAAADMAAABLAAAAaAAAAGUAAABmAAAAdwAAAE4AAAB0AAAAYwAAAE8AAABo"
+			"AAAAdwAAAEIAAAA0AAAATQAAAFMAAABjAAAAagAAAEMAAABFAAAAbgAAAC8AAAB0AAAAKwAAAFIA"
+			"AABrAAAALwAAAEYAAAAvAAAAUgAAADAAAAA3AAAAdQAAACsAAABuAAAAdwAAAHYAAABnAAAARQAA"
+			"ADAAAAB0AAAASAAAAFQAAABzAAAAYQAAAHEAAAB1AAAAbwAAAC8AAAB5AAAASwAAADIAAAB1AAAA"
+			"LwAAADIAAABSAAAAUQAAAGYAAABlAAAAdQAAADYAAAB2AAAAaQAAADMAAAArAAAAeQAAAHEAAAB6"
+			"AAAAVwAAAGoAAAByAAAAMwAAAFoAAABxAAAAdAAAAHEAAABXAAAASQAAAFEAAABoAAAAZQAAAEEA"
+			"AABTAAAAZwAAAGsAAAA0AAAAaAAAAHYAAAA2AAAAQwAAAEEAAABjAAAARAAAAEgAAABFAAAAUgAA"
+			"AFEAAABoAAAAUQAAAEoAAAAvAAAAbgAAADgAAAB5AAAAaAAAAEgAAABkAAAAbgAAAEsAAAAwAAAA"
+			"UAAAAGEAAAArAAAAMgAAAFUAAABjAAAAMwAAADUAAAAyAAAAWQAAAGQAAAAyAAAAegAAAFkAAABn"
+			"AAAAOQAAADcAAABUAAAAbQAAAEkAAAAvAAAAcQAAAFAAAABiAAAATwAAADYAAABYAAAAYwAAACsA"
+			"AAB3AAAAQQAAAEEAAABDAAAAYwAAAEIAAABPAAAATAAAAFQAAAB6AAAAdgAAACsAAABNAAAAbAAA"
+			"AC8AAABHAAAANAAAAG0AAABoAAAASwAAAGEAAAAyAAAAYgAAAGQAAABYAAAAMQAAAEwAAABlAAAA"
+			"cwAAAFAAAABNAAAAMQAAAFEAAAA0AAAAQQAAAFQAAABWAAAASQAAAHAAAABQAAAANAAAAGoAAABJ"
+			"AAAAVAAAAFcAAABJAAAAUQAAAHcAAABLAAAALwAAAGIAAABvAAAATAAAAFYAAABJAAAASgAAAEYA"
+			"AAA5AAAANgAAAFYAAABLAAAARAAAAEQAAABEAAAAbQAAAGUAAABFAAAANgAAAE0AAAB6AAAAcQAA"
+			"AFkAAABrAAAAQwAAAHQAAHttWQAAcQMAAAAAAADgbMN5bVkAACDrL/FodQAAZwAAAHIAAABhAAAA"
+			"cAAAAGgAAABpAAAAYwAAAGEAAABsAAAAIAAAAGQAAABpAAAAcwAAAHAAAABsAAAAYQAAAHkAAAAg"
+			"AAAAdwAAAGkAAAB0AAAAaAAAACAAAABMAAAARQAAAEQAAAAgAAAAYgAAAGEAAABjAAAAawAAAGwA"
+			"AABpAAAAZwAAAGgAAAB0AAAAIAAAAHAAAABvAAAAcwAAAGkAAAB0AAAAaQAAAHYAAABlAAAAIAAA"
+			"AG0AAABvAAAAZAAAAGUAAAAgAAAARgAAAFMAAABUAAAATgAAACwAAAAgAAAAMwAAAC4AAAAzAAAA"
+			"VgAAACAAAAAtAAAAIAAAADUAAABWAAAAIAAAAFYAAABEAAAARAAAACwAAAAgAAAAUgAAAFMAAAAt"
+			"AAAAMgAAADMAAAAyAAAALgAAACAAAABJAAAAMgAAAEMAAAAgAAAAbwAAAHIAAAAgAAAAUwAAAFAA"
+			"AABJAAAAAAAAAG1ZAADwIgAAAAAAAJEBAAAAAAAAcKDNe21ZAABwasN5bVkAAGcAAAByAAAAYQAA"
+			"AHAAAABoAAAAaQAAAGMAAABhAAAAbAAAACAAAABkAAAAaQAAAHMAAABwAAAAbAAAAGEAAAB5AAAA"
+			"IAAAAHcAAABpAAAAdAAAAGgAAAAgAAAATAAAAEUAAABEAAAAIAAAAGIAAABhAAAAYwAAAGsAAABs"
+			"AAAAaQAAAGcAAABoAAAAdAAAACAAAABwAAAAbwAAAHMAAABpAAAAdAAAAGkAAAB2AAAAZQAAACAA"
+			"AABtAAAAbwAAAGQAAABlAAAAIAAAAEYAAABTAAAAVAAAAE4AAAAsAAAAIAAAADMAAAAuAAAAMwAA"
+			"AFYAAAAgAAAALQAAACAAAAA1AAAAVgAAACAAAABWAAAARAAAAEQAAAAsAAAAIAAAAFIAAABTAAAA"
+			"LQAAADIAAAAzAAAAMgAAAC4AAAAgAAAASQAAADIAAABDAAAAIAAAAG8AAAByAAAAIAAAAFMAAABQ"
+			"AAAASQAAAAAAAAAAAAAAIAMAAAAAAABQAAAAAAAAALsFGu1oWQAAXwAAAGUAAABEAAAASQAAAFAA"
+			"AAAxAAAAMgAAADgAAABXAAAALQAAADYAAABMAAAAVwAAAFQAAABQBQAAAAAAAFAAAAAAAAAA6xga"
+			"7WhZAABfAAAAZQAAAGQAAABpAAAAcAAAADEAAAAyAAAAOAAAAHcAAAAtAAAANgAAAGwAAAB3AAAA"
+			"AAAAAOiP0rFodQAAEQIAAAAAAABgN82LbVkAANCkzXttWQAAcgAAAGkAAABwAAAAdAAAAGkAAABv"
+			"AAAAbgAAAAAAAAAIAAAAAA=="
 		)
 	)
 	(global_label "CON_CC1"
@@ -10767,7 +10931,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ST_QFN40P220X135X50-10L"
+		(property "Footprint" "usb3-gmm7550:UQFN10L_1P4X2P25X0P4_STM"
 			(at 93.98 71.12 0)
 			(effects
 				(font
@@ -10776,7 +10940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/ecmf4-40a100n10.pdf"
 			(at 93.98 71.12 0)
 			(effects
 				(font
@@ -10785,7 +10949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Common mode filter with ESD protection for high speed serial interface"
 			(at 93.98 71.12 0)
 			(effects
 				(font
@@ -11573,6 +11737,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 200.66 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70a12fd3-96ae-41be-be6f-2d6449405bbb")
+		(property "Reference" "C56"
+			(at 201.93 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.01uF"
+			(at 201.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 200.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19adc0c6-6dc2-4476-9009-87d1c4ed55c6")
+		)
+		(pin "2"
+			(uuid "7342dbeb-ab14-4c00-bcfb-992202a7a8bc")
+		)
+		(instances
+			(project "usb3-gmm7550"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/201c9a67-de5c-41f6-bf23-7bce60956be5"
+					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "usb3-gmm7550:ECMF4-40A100N10")
 		(at 93.98 102.87 0)
 		(unit 1)
@@ -11597,7 +11830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ST_QFN40P220X135X50-10L"
+		(property "Footprint" "usb3-gmm7550:UQFN10L_1P4X2P25X0P4_STM"
 			(at 93.98 102.87 0)
 			(effects
 				(font
@@ -11606,7 +11839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/ecmf4-40a100n10.pdf"
 			(at 93.98 102.87 0)
 			(effects
 				(font
@@ -11615,7 +11848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Common mode filter with ESD protection for high speed serial interface"
 			(at 93.98 102.87 0)
 			(effects
 				(font
@@ -12497,7 +12730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT-SC70_DCK_TEX"
+		(property "Footprint" "usb3-gmm7550:SOT-SC70_DCK_TEX"
 			(at 101.6 29.21 0)
 			(effects
 				(font
@@ -13253,7 +13486,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Molex_105450-0101"
 			(at 41.91 63.5 0)
 			(effects
 				(font

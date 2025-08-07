@@ -685,7 +685,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ST_QFN40P220X135X50-10L"
+		(property "Footprint" "usb3-gmm7550:UQFN10L_1P4X2P25X0P4_STM"
 			(at 0 0 0)
 			(effects
 				(font

@@ -339,7 +339,7 @@
 		(uuid "1c99d391-7545-4fe1-898a-325d2e831fc0")
 	)
 	(embedded_fonts no)
-	(model "/home/ak/Work/ccgm/tmp/Q/ecmf4/UQFN10L_1p4x2p25x0p4_STM.step"
+	(model "./UQFN10L_1p4x2p25x0p4_STM.step"
 		(offset
 			(xyz 0 0 0)
 		)
