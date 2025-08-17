@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "GMM-7550 USB3 Adapter")
-		(date "2025-08-06")
-		(rev "0.9.1")
+		(date "2025-08-17")
+		(rev "0.9.2")
 	)
 	(lib_symbols
 		(symbol "+5V_1"

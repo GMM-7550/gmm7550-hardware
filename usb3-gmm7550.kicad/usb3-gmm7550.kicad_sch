@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "GMM-7550 USB3 Adapter")
-		(date "2025-08-06")
-		(rev "0.9.1")
+		(date "2025-08-17")
+		(rev "0.9.2")
 	)
 	(lib_symbols
 		(symbol "Graphic:Logo_Open_Hardware_Small"
@@ -337,6 +337,18 @@
 		)
 		(uuid "50e0406e-2fbc-4e78-84ec-79c7cb96e863")
 	)
+	(text "2025-08-17"
+		(exclude_from_sim no)
+		(at 172.085 76.2 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "5ea6386c-9e56-4275-bf83-ffa3860ecd7b")
+	)
 	(text "USB 1.1 and USB 2.0 transceivers"
 		(exclude_from_sim no)
 		(at 45.72 76.835 0)
@@ -373,6 +385,18 @@
 			(justify left)
 		)
 		(uuid "85a3aaae-408d-42f3-8ca6-0a38c5d5ff35")
+	)
+	(text "Change U14 (RP2040 SPI FLASH)"
+		(exclude_from_sim no)
+		(at 201.295 76.2 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "8744d2f3-13b6-4e01-a913-0f0d7e1084eb")
 	)
 	(text "GMM-7550 SA and SB IO banks"
 		(exclude_from_sim no)
@@ -495,6 +519,18 @@
 			(justify left)
 		)
 		(uuid "b6966189-813a-4b20-b4b5-1861f94dc349")
+	)
+	(text "0.9.2"
+		(exclude_from_sim no)
+		(at 156.21 76.2 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "bcdb0d53-fe4b-4c9e-9da3-f5ef89a4bcfa")
 	)
 	(text "1"
 		(exclude_from_sim no)
@@ -666,6 +702,16 @@
 	)
 	(polyline
 		(pts
+			(xy 169.545 72.39) (xy 169.545 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf8f7da-8092-4294-810f-6251a52adc87")
+	)
+	(polyline
+		(pts
 			(xy 148.59 57.15) (xy 148.59 72.39)
 		)
 		(stroke
@@ -686,6 +732,16 @@
 	)
 	(polyline
 		(pts
+			(xy 279.4 80.01) (xy 148.59 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a8cdb83-c6ee-469f-9989-68af69d884db")
+	)
+	(polyline
+		(pts
 			(xy 142.24 49.53) (xy 142.24 41.91)
 		)
 		(stroke
@@ -703,6 +759,16 @@
 			(type default)
 		)
 		(uuid "6e204a16-2f3a-4999-92e6-fd3001c75044")
+	)
+	(polyline
+		(pts
+			(xy 148.59 72.39) (xy 148.59 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7101b2c9-9bd5-4df1-8913-1a1e9cc2a5db")
 	)
 	(polyline
 		(pts
@@ -846,6 +912,16 @@
 	)
 	(polyline
 		(pts
+			(xy 199.39 72.39) (xy 199.39 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb373e4a-157f-4cbf-9979-8960df5971f7")
+	)
+	(polyline
+		(pts
 			(xy 21.59 95.25) (xy 142.24 95.25)
 		)
 		(stroke
@@ -853,6 +929,16 @@
 			(type default)
 		)
 		(uuid "eda12373-57c2-4a72-80d2-041ae69e15ac")
+	)
+	(polyline
+		(pts
+			(xy 279.4 72.39) (xy 279.4 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efe8dcf9-48d0-44ef-9916-d436ea16c2bc")
 	)
 	(polyline
 		(pts
