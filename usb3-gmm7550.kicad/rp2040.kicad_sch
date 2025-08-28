@@ -11553,6 +11553,16 @@
 		)
 		(uuid "3728b5ff-9805-42ee-9fe6-b6ed14120569")
 	)
+	(label "J2_D_N"
+		(at 50.8 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c7cde63-0cc3-4b60-b225-1d5ff178ee1f")
+	)
 	(label "RP_QSPI_SCLK"
 		(at 140.97 71.12 0)
 		(effects
@@ -11572,6 +11582,16 @@
 			(justify right bottom)
 		)
 		(uuid "489a322c-7df0-4658-bf77-ad81fd8c0505")
+	)
+	(label "RP_D_N"
+		(at 146.05 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b1b3e05-8caf-4589-88e8-36253926556f")
 	)
 	(label "RP_QSPI_D1"
 		(at 140.97 63.5 0)
@@ -11593,6 +11613,16 @@
 		)
 		(uuid "4ef61db2-4126-438d-8000-194a095612b6")
 	)
+	(label "RP_D_P"
+		(at 146.05 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52a0ffec-d702-429b-a091-7e60e066dd22")
+	)
 	(label "RP_QSPI_SS"
 		(at 58.42 100.33 0)
 		(effects
@@ -11602,6 +11632,16 @@
 			(justify left bottom)
 		)
 		(uuid "6c7e1f42-b9f2-498e-9305-5ac3fa2bd4fb")
+	)
+	(label "U15_D_N"
+		(at 119.38 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7042ea40-328b-4b37-a549-6d450d5943c3")
 	)
 	(label "RP_QSPI_D3"
 		(at 140.97 68.58 0)
@@ -11672,6 +11712,26 @@
 			(justify left bottom)
 		)
 		(uuid "aa5e7396-b82b-47d4-9596-b388a33e0763")
+	)
+	(label "J2_D_P"
+		(at 50.8 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c18b0b6f-fada-45dc-b6b8-1b4f84a1f0f3")
+	)
+	(label "U15_D_P"
+		(at 119.38 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db7c480c-21cd-414b-96e4-a8d89a1d2701")
 	)
 	(label "RP_QSPI_D2"
 		(at 58.42 110.49 0)
