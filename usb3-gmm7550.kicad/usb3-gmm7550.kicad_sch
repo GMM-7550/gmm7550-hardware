@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "GMM-7550 USB3 Adapter")
-		(date "2025-08-17")
-		(rev "0.9.2")
+		(date "2025-09-02")
+		(rev "0.9.3")
 	)
 	(lib_symbols
 		(symbol "Graphic:Logo_Open_Hardware_Small"
@@ -275,6 +275,18 @@
 			(justify left)
 		)
 		(uuid "1395cfd6-f747-4953-9d7f-624748e15df3")
+	)
+	(text "2025-09-02"
+		(exclude_from_sim no)
+		(at 172.085 83.82 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "1439df48-b832-4a64-9b77-b5dc7465fba5")
 	)
 	(text "Change U12 and U13 to AP7330"
 		(exclude_from_sim no)
@@ -544,6 +556,18 @@
 		)
 		(uuid "c2616988-d282-47c6-844e-370daf0edf53")
 	)
+	(text "0.9.3"
+		(exclude_from_sim no)
+		(at 156.21 83.82 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "c36b5ea2-e3c3-41fb-8084-a53b5dd62f89")
+	)
 	(text "2025-07-24"
 		(exclude_from_sim no)
 		(at 172.085 53.975 0)
@@ -614,6 +638,18 @@
 			(justify left)
 		)
 		(uuid "f537010c-2eab-480a-ae2d-4fe367fe14d8")
+	)
+	(text "Add USB Type-C orientation indicator"
+		(exclude_from_sim no)
+		(at 201.295 83.82 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "f67f43b3-de11-4d1e-815e-f0dece79bc69")
 	)
 	(text "Description"
 		(exclude_from_sim no)
@@ -752,6 +788,16 @@
 	)
 	(polyline
 		(pts
+			(xy 169.545 80.01) (xy 169.545 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6af9edd2-6904-476f-8bed-ce31f365ac36")
+	)
+	(polyline
+		(pts
 			(xy 279.4 41.91) (xy 279.4 57.15)
 		)
 		(stroke
@@ -819,6 +865,16 @@
 			(type default)
 		)
 		(uuid "a05060d0-0345-4fa8-8bc9-b218aed67cc6")
+	)
+	(polyline
+		(pts
+			(xy 199.39 80.01) (xy 199.39 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a195584d-5e1e-4979-9b87-8129e65eafd9")
 	)
 	(polyline
 		(pts
@@ -912,6 +968,16 @@
 	)
 	(polyline
 		(pts
+			(xy 279.4 80.01) (xy 279.4 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7324d6a-92ff-4f57-9d5e-3ea04cbd5303")
+	)
+	(polyline
+		(pts
 			(xy 199.39 72.39) (xy 199.39 80.01)
 		)
 		(stroke
@@ -949,6 +1015,26 @@
 			(type default)
 		)
 		(uuid "f34f0975-833a-4a72-b8dd-1b02b66ea457")
+	)
+	(polyline
+		(pts
+			(xy 148.59 80.01) (xy 148.59 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ac49e0-de50-4366-a324-25dc8f863a14")
+	)
+	(polyline
+		(pts
+			(xy 279.4 87.63) (xy 148.59 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6be3560-0b69-4a61-9bea-8604483923f3")
 	)
 	(image
 		(at 201.93 177.8)
