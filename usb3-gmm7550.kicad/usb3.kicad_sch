@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "GMM-7550 USB3 Adapter")
-		(date "2025-09-02")
-		(rev "0.9.3")
+		(date "2025-09-xx")
+		(rev "0.9.4")
 	)
 	(lib_symbols
 		(symbol "+5V_1"
@@ -5368,12 +5368,6 @@
 		(uuid "2697b6a9-1c53-4de1-b25a-3e1dc0852834")
 	)
 	(junction
-		(at 57.15 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3de8db68-ce41-4d3c-9453-47cdeac657ef")
-	)
-	(junction
 		(at 232.41 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5402,6 +5396,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53628c10-5b20-4fc2-89db-a16d8188e4ff")
+	)
+	(junction
+		(at 57.15 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "625820fe-a8e1-4ca1-b8d2-c3eecf96a884")
 	)
 	(junction
 		(at 226.06 118.11)
@@ -5677,16 +5677,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 53.34) (xy 91.44 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ab64e20-7550-48bf-b2ec-f7eba79e187d")
-	)
-	(wire
-		(pts
 			(xy 128.27 78.74) (xy 128.27 68.58)
 		)
 		(stroke
@@ -5814,16 +5804,6 @@
 			(type default)
 		)
 		(uuid "330a465d-539e-48df-862a-2975fee19a72")
-	)
-	(wire
-		(pts
-			(xy 111.76 50.8) (xy 130.81 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33252c85-5f46-4297-b0ed-a265b98d17d1")
 	)
 	(wire
 		(pts
@@ -6277,6 +6257,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 50.8) (xy 130.81 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e777122-850e-47fb-919c-18da19485fa1")
+	)
+	(wire
+		(pts
 			(xy 236.22 91.44) (xy 243.84 91.44)
 		)
 		(stroke
@@ -6357,7 +6347,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 55.88) (xy 57.15 55.88)
+			(xy 57.15 55.88) (xy 59.69 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6424,16 +6414,6 @@
 			(type default)
 		)
 		(uuid "7b014697-60a9-405e-b93f-eb9ee73b9e83")
-	)
-	(wire
-		(pts
-			(xy 111.76 53.34) (xy 130.81 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b89d07e-c9fb-4945-b5c8-0da02345847f")
 	)
 	(wire
 		(pts
@@ -6544,6 +6524,16 @@
 			(type default)
 		)
 		(uuid "86a48b39-9b69-4c88-9ae4-d66cf360ee2c")
+	)
+	(wire
+		(pts
+			(xy 59.69 55.88) (xy 59.69 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a64da2-f97b-4c43-8400-3db125b0a8e2")
 	)
 	(wire
 		(pts
@@ -6817,6 +6807,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 50.8) (xy 91.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91c41a8-e58d-4024-811d-a0b9c48a2acf")
+	)
+	(wire
+		(pts
 			(xy 78.74 73.66) (xy 78.74 86.36)
 		)
 		(stroke
@@ -6884,16 +6884,6 @@
 			(type default)
 		)
 		(uuid "aff7120b-34fe-43f4-9d1e-ee2f1c2e1963")
-	)
-	(wire
-		(pts
-			(xy 59.69 50.8) (xy 59.69 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b09447c3-ca25-47fc-bc96-158ea3a4d434")
 	)
 	(wire
 		(pts
@@ -7067,6 +7057,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 53.34) (xy 91.44 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd659ee8-fcf3-4eaa-97d7-e50f48cde4d6")
+	)
+	(wire
+		(pts
 			(xy 209.55 58.42) (xy 209.55 59.69)
 		)
 		(stroke
@@ -7164,6 +7164,16 @@
 			(type default)
 		)
 		(uuid "caf7c0b2-7017-4751-87e6-b1768d61b993")
+	)
+	(wire
+		(pts
+			(xy 111.76 53.34) (xy 130.81 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb708bff-113d-44af-9f2b-1ec9503eb8d6")
 	)
 	(wire
 		(pts
@@ -7294,16 +7304,6 @@
 			(type default)
 		)
 		(uuid "d513af39-55f7-4539-a1c1-b5443b52ea1c")
-	)
-	(wire
-		(pts
-			(xy 91.44 50.8) (xy 59.69 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da0e7153-d0c0-48db-9eb5-41597e0dd9b5")
 	)
 	(wire
 		(pts
@@ -10742,7 +10742,7 @@
 		(uuid "b6446843-d2d0-40f0-a2e2-afab6dff04e2")
 	)
 	(label "J1_D_N"
-		(at 62.23 53.34 0)
+		(at 62.23 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10772,7 +10772,7 @@
 		(uuid "e3908f56-2638-4128-b34e-5732e1c9dd68")
 	)
 	(label "J1_D_P"
-		(at 62.23 50.8 0)
+		(at 62.23 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10837,7 +10837,7 @@
 	)
 	(global_label "USB2_D_N"
 		(shape bidirectional)
-		(at 130.81 53.34 0)
+		(at 130.81 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10847,7 +10847,7 @@
 		)
 		(uuid "34132cfe-df33-464a-ac7a-9ad98633fd74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.4617 53.34 0)
+			(at 144.4617 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10925,7 +10925,7 @@
 	)
 	(global_label "USB2_D_P"
 		(shape bidirectional)
-		(at 130.81 50.8 0)
+		(at 130.81 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10935,7 +10935,7 @@
 		)
 		(uuid "7ab9d56f-cd98-4c0c-b969-64ed554881c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.4012 50.8 0)
+			(at 144.4012 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)

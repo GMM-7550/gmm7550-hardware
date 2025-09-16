@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "GMM-7550 USB3 Adapter")
-		(date "2025-09-02")
-		(rev "0.9.3")
+		(date "2025-09-xx")
+		(rev "0.9.4")
 	)
 	(lib_symbols
 		(symbol "Graphic:Logo_Open_Hardware_Small"
@@ -373,6 +373,30 @@
 		)
 		(uuid "65c003de-a58b-4b95-8f25-e8ce1198e5ed")
 	)
+	(text "FPGA and RP I/O rearrangement"
+		(exclude_from_sim no)
+		(at 201.295 91.44 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "682e954c-b77f-4596-a86c-9fb5d6fb0234")
+	)
+	(text "2025-09-xx"
+		(exclude_from_sim no)
+		(at 172.085 91.44 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "82fed745-77a6-48c4-ad3a-e848fd31e8ad")
+	)
 	(text "Notes"
 		(exclude_from_sim no)
 		(at 201.295 46.355 0)
@@ -664,6 +688,18 @@
 		)
 		(uuid "f73e4986-e36e-4014-a6d2-ef6f829f3c52")
 	)
+	(text "0.9.4"
+		(exclude_from_sim no)
+		(at 156.21 91.44 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "fb5f8bb8-cb07-491d-bec5-4fd9c9bc998b")
+	)
 	(text "GMM-7550 Module Power and Control"
 		(exclude_from_sim no)
 		(at 45.72 84.455 0)
@@ -675,6 +711,16 @@
 			(justify left)
 		)
 		(uuid "ffadb910-5253-47e1-9ad6-8807f6c41bc2")
+	)
+	(polyline
+		(pts
+			(xy 279.4 95.25) (xy 148.59 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0434a7e9-014a-4445-9e19-766d9f183b8e")
 	)
 	(polyline
 		(pts
@@ -735,6 +781,16 @@
 			(type default)
 		)
 		(uuid "3a49d426-713a-4feb-948f-a2465170caa2")
+	)
+	(polyline
+		(pts
+			(xy 148.59 87.63) (xy 148.59 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a929f8d-b3b0-4562-8a1a-f0daaefeaced")
 	)
 	(polyline
 		(pts
@@ -835,6 +891,16 @@
 			(type default)
 		)
 		(uuid "86039204-c1ad-496a-a418-ad9a5883ed08")
+	)
+	(polyline
+		(pts
+			(xy 279.4 87.63) (xy 279.4 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "937fcd40-e71c-4126-b182-c79975f2ddde")
 	)
 	(polyline
 		(pts
@@ -948,6 +1014,16 @@
 	)
 	(polyline
 		(pts
+			(xy 169.545 87.63) (xy 169.545 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d988471d-10f9-4fed-aa44-46e90a910e4d")
+	)
+	(polyline
+		(pts
 			(xy 21.59 64.77) (xy 142.24 64.77)
 		)
 		(stroke
@@ -1035,6 +1111,16 @@
 			(type default)
 		)
 		(uuid "f6be3560-0b69-4a61-9bea-8604483923f3")
+	)
+	(polyline
+		(pts
+			(xy 199.39 87.63) (xy 199.39 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe52b064-a54b-42ae-9a94-9d94c9df2091")
 	)
 	(image
 		(at 201.93 177.8)
