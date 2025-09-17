@@ -2335,6 +2335,12 @@
 		(uuid "53188ce9-4d9e-44ab-b940-0212a29422f1")
 	)
 	(junction
+		(at 205.74 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56e85bd3-c3e2-4ee1-9bc8-1d845e17624c")
+	)
+	(junction
 		(at 45.72 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2644,7 +2650,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 80.01) (xy 219.71 80.01)
+			(xy 199.39 80.01) (xy 205.74 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3284,6 +3290,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 80.01) (xy 219.71 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97109bc6-02aa-404c-b4f6-3be9ecd0fbf0")
+	)
+	(wire
+		(pts
 			(xy 191.77 82.55) (xy 219.71 82.55)
 		)
 		(stroke
@@ -3771,6 +3787,16 @@
 			(type default)
 		)
 		(uuid "f6a63560-7600-4ab6-9588-d6422ef73594")
+	)
+	(wire
+		(pts
+			(xy 205.74 78.74) (xy 205.74 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7d5918b-a7da-4bda-86b4-45d24f202622")
 	)
 	(wire
 		(pts
@@ -9388,6 +9414,72 @@
 			(project "usb3-gmm7550"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d7caf9d0-36da-4a2b-bd32-7c05025d3dd2"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 205.74 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9180e937-fe89-42dd-a477-38e664689842")
+		(property "Reference" "TP2"
+			(at 207.01 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 207.01 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 205.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 205.74 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "162e2763-b15b-4170-be2a-c03a1e6a90cd")
+		)
+		(instances
+			(project "usb3-gmm7550"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d7caf9d0-36da-4a2b-bd32-7c05025d3dd2"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
