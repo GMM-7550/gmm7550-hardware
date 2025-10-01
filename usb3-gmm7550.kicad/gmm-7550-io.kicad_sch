@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "GMM-7550 USB3 Adapter")
-		(date "2025-09-xx")
-		(rev "0.9.4")
+		(date "2025-10-01")
+		(rev "0.9.5")
 	)
 	(lib_symbols
 		(symbol "Amphenol:10144517-061802LF"
@@ -8314,7 +8314,7 @@
 			)
 		)
 	)
-	(global_label "PD_RESET"
+	(global_label "PD_EN_N"
 		(shape output)
 		(at 119.38 50.8 180)
 		(fields_autoplaced yes)
@@ -8326,7 +8326,7 @@
 		)
 		(uuid "e7436221-a9cb-4246-9662-7e73ba2dae6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.1421 50.8 0)
+			(at 108.1096 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)

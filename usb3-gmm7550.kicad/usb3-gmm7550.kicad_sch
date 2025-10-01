@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "GMM-7550 USB3 Adapter")
-		(date "2025-09-xx")
-		(rev "0.9.4")
+		(date "2025-10-01")
+		(rev "0.9.5")
 	)
 	(lib_symbols
 		(symbol "Graphic:Logo_Open_Hardware_Small"
@@ -312,6 +312,18 @@
 		)
 		(uuid "22dc57cf-71f2-4bb7-8d70-02d8e9d410d2")
 	)
+	(text "USB Power Delivery re-design"
+		(exclude_from_sim no)
+		(at 201.295 99.06 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "364a1c21-a0e6-4c55-8282-d367d0a3e938")
+	)
 	(text "Revision"
 		(exclude_from_sim no)
 		(at 151.13 46.355 0)
@@ -385,7 +397,7 @@
 		)
 		(uuid "682e954c-b77f-4596-a86c-9fb5d6fb0234")
 	)
-	(text "2025-09-xx"
+	(text "2025-09-18"
 		(exclude_from_sim no)
 		(at 172.085 91.44 0)
 		(effects
@@ -482,6 +494,18 @@
 			(justify left)
 		)
 		(uuid "9d2bc8a1-80f6-4d90-8d1b-3b126ffebf6a")
+	)
+	(text "0.9.5"
+		(exclude_from_sim no)
+		(at 156.21 99.06 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "a2bd32d2-1cb6-4756-a979-453ac2fe619d")
 	)
 	(text "0.9.1"
 		(exclude_from_sim no)
@@ -627,6 +651,18 @@
 			(justify left)
 		)
 		(uuid "cae01174-38bd-485d-a658-e2fa2b10bd48")
+	)
+	(text "2025-10-01"
+		(exclude_from_sim no)
+		(at 172.085 99.06 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "d4cadf51-f613-4477-970c-00bd621094e6")
 	)
 	(text "2025-08-06"
 		(exclude_from_sim no)
@@ -794,6 +830,16 @@
 	)
 	(polyline
 		(pts
+			(xy 279.4 95.25) (xy 279.4 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425badbb-73f3-47e9-9f2f-231914215539")
+	)
+	(polyline
+		(pts
 			(xy 169.545 72.39) (xy 169.545 80.01)
 		)
 		(stroke
@@ -811,6 +857,16 @@
 			(type default)
 		)
 		(uuid "51de2846-71a5-4ac4-9d18-20976c18d964")
+	)
+	(polyline
+		(pts
+			(xy 169.545 95.25) (xy 169.545 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5623c183-7d10-42ec-a5af-a6a6935fb8bd")
 	)
 	(polyline
 		(pts
@@ -854,6 +910,16 @@
 	)
 	(polyline
 		(pts
+			(xy 199.39 95.25) (xy 199.39 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4b0e10-3f32-40db-90bd-96f89edfa743")
+	)
+	(polyline
+		(pts
 			(xy 279.4 41.91) (xy 279.4 57.15)
 		)
 		(stroke
@@ -891,6 +957,16 @@
 			(type default)
 		)
 		(uuid "86039204-c1ad-496a-a418-ad9a5883ed08")
+	)
+	(polyline
+		(pts
+			(xy 279.4 102.87) (xy 148.59 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da648a3-2d6e-44e3-a22f-b97158499874")
 	)
 	(polyline
 		(pts
@@ -971,6 +1047,16 @@
 			(type default)
 		)
 		(uuid "bef53e0b-2fdd-47aa-a81a-2664a11e8853")
+	)
+	(polyline
+		(pts
+			(xy 148.59 95.25) (xy 148.59 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfb349ec-7022-4832-8aef-da7532a3601d")
 	)
 	(polyline
 		(pts
