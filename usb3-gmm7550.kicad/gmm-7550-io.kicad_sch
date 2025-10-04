@@ -7764,28 +7764,6 @@
 			)
 		)
 	)
-	(global_label "PD_VBUS_VALID"
-		(shape input)
-		(at 119.38 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "12e931a6-48af-43f1-bee0-b68425cc0040")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.9409 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ULPI_STP"
 		(shape output)
 		(at 172.72 66.04 0)
@@ -7870,28 +7848,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PD_ATTACH"
-		(shape input)
-		(at 119.38 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2d61e1bb-85c7-42ca-845c-892f88e4151f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.1743 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -8028,28 +7984,6 @@
 			)
 		)
 	)
-	(global_label "PD_DEBUG2"
-		(shape input)
-		(at 172.72 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "55eb0269-9cfd-489f-8ad4-9aaa0878e16f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.7118 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ULPI_NXT"
 		(shape input)
 		(at 119.38 78.74 180)
@@ -8063,6 +7997,28 @@
 		(uuid "66cbad38-321a-4021-9e7b-75dc5256a65f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 107.6862 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PD_SRC_EN"
+		(shape output)
+		(at 119.38 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70f17f22-a44d-48e0-ab47-476f49565a4e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.6906 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8204,6 +8160,28 @@
 			)
 		)
 	)
+	(global_label "PD_DISCH"
+		(shape output)
+		(at 172.72 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8627f64-1cb8-4929-8fd1-28c1eab25e63")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.8976 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB1_BUSDET"
 		(shape input)
 		(at 119.38 101.6 180)
@@ -8261,6 +8239,28 @@
 		(uuid "ca5d9d1f-a2ef-465f-b76f-b92808242e0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 75.0896 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO_SB_A5"
+		(shape bidirectional)
+		(at 119.38 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf726d36-5381-4ce8-9951-ad3da8df0873")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.6354 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8336,8 +8336,8 @@
 			)
 		)
 	)
-	(global_label "PD_DEBUG1"
-		(shape input)
+	(global_label "IO_SB_A1"
+		(shape bidirectional)
 		(at 172.72 53.34 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8346,9 +8346,9 @@
 			)
 			(justify left)
 		)
-		(uuid "f2f55cdc-573c-4e31-a959-9cef76807138")
+		(uuid "f320d3fa-a1ea-4d30-a546-9931946adceb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.7118 53.34 0)
+			(at 185.4646 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)

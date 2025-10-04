@@ -3069,6 +3069,12 @@
 		(uuid "8528fb20-92cf-4093-bd1a-25579415b4ff")
 	)
 	(junction
+		(at 71.12 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96272104-60dd-4cb6-a3d1-cbd4bc211539")
+	)
+	(junction
 		(at 220.98 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3091,6 +3097,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3ee0fbe-8384-48ee-9f1f-c000b5ae7fff")
+	)
+	(junction
+		(at 76.2 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9994d65-9dcf-4d86-9c7a-89d484d5d4dc")
 	)
 	(junction
 		(at 101.6 57.15)
@@ -3155,16 +3167,6 @@
 			(type default)
 		)
 		(uuid "08c986d6-cd3d-42f9-a2a2-47f681bebcee")
-	)
-	(wire
-		(pts
-			(xy 76.2 71.12) (xy 90.17 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09a6008b-6452-4680-9e51-af5c84d6f4b4")
 	)
 	(wire
 		(pts
@@ -3288,6 +3290,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 54.61) (xy 71.12 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2402c1dc-a639-4309-ab0e-9f3e1fc73e5a")
+	)
+	(wire
+		(pts
 			(xy 132.08 111.76) (xy 132.08 101.6)
 		)
 		(stroke
@@ -3355,6 +3367,16 @@
 			(type default)
 		)
 		(uuid "30ca4c69-3e69-43bb-8813-ca7be38d94af")
+	)
+	(wire
+		(pts
+			(xy 76.2 71.12) (xy 90.17 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3161d4c5-e7f0-4579-9617-7cef7a1bb121")
 	)
 	(wire
 		(pts
@@ -3718,6 +3740,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 43.18) (xy 71.12 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f7b9a8-ead6-4b0c-b3e2-91301d23e9ac")
+	)
+	(wire
+		(pts
 			(xy 114.3 43.18) (xy 114.3 49.53)
 		)
 		(stroke
@@ -4005,6 +4037,16 @@
 			(type default)
 		)
 		(uuid "b906567e-6727-4058-8608-10911c48bbe5")
+	)
+	(wire
+		(pts
+			(xy 71.12 71.12) (xy 76.2 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b91b7f52-5dc9-4a56-8475-82bfcc745f5e")
 	)
 	(wire
 		(pts
@@ -7416,7 +7458,7 @@
 			)
 		)
 	)
-	(global_label "PD_DIS"
+	(global_label "PD_DISCH"
 		(shape input)
 		(at 66.04 63.5 180)
 		(fields_autoplaced yes)
@@ -7428,7 +7470,7 @@
 		)
 		(uuid "0c07074d-a6db-42ce-aa11-13171be80395")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.4629 63.5 0)
+			(at 53.8624 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9542,6 +9584,75 @@
 			(project "usb3-gmm7550"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/60a01b67-a296-4e5c-ae04-350714992f76"
 					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 71.12 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a04ef83-4c13-4c6d-b50d-a405e166ab49")
+		(property "Reference" "C53"
+			(at 71.755 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.0uF"
+			(at 71.12 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 71.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18cf0d52-9f76-46d3-88ee-b94afde75224")
+		)
+		(pin "2"
+			(uuid "7460ec38-39e1-41c1-8318-4bcfa9557ef5")
+		)
+		(instances
+			(project "usb3-gmm7550"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/60a01b67-a296-4e5c-ae04-350714992f76"
+					(reference "C53")
 					(unit 1)
 				)
 			)
