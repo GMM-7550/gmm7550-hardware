@@ -4352,6 +4352,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 68.58) (xy 134.62 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9535648-1ee0-4b18-a7f2-06849bf5fe6a")
+	)
+	(wire
+		(pts
 			(xy 134.62 106.68) (xy 133.35 106.68)
 		)
 		(stroke
@@ -4539,6 +4549,16 @@
 			(type default)
 		)
 		(uuid "f5d9d6ca-fcaa-4a5a-b062-8b78bb2c1ef2")
+	)
+	(wire
+		(pts
+			(xy 119.38 66.04) (xy 134.62 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b83917-e1f5-43c4-803e-f6252cf0b3f4")
 	)
 	(wire
 		(pts
@@ -8072,6 +8092,28 @@
 			)
 		)
 	)
+	(global_label "IO_SB_B4"
+		(shape bidirectional)
+		(at 119.38 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94bf18c9-e352-4571-a32f-52f03cd8ad43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.454 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PD_SDA"
 		(shape bidirectional)
 		(at 196.85 45.72 0)
@@ -8178,6 +8220,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO_SB_A4"
+		(shape bidirectional)
+		(at 119.38 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bcdf12dc-c903-4919-b2cf-4f79babe4247")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.6354 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

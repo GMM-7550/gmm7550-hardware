@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 6,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -13,7 +13,7 @@
       "shapes": 0.8299999833106995,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.49000000953674316
+      "zones": 0.5899999737739563
     },
     "selection_filter": {
       "dimensions": true,
@@ -31,6 +31,7 @@
     "visible_items": [
       "vias",
       "footprint_text",
+      "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",
@@ -44,8 +45,8 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff7_57fddfc0",
-    "zone_display_mode": 1
+    "visible_layers": "ffffffff_ffffffff_fffffff7_57fddf85",
+    "zone_display_mode": 0
   },
   "git": {
     "repo_type": "",

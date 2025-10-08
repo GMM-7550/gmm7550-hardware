@@ -9429,7 +9429,7 @@
 		(dnp no)
 		(uuid "9180e937-fe89-42dd-a477-38e664689842")
 		(property "Reference" "TP2"
-			(at 207.01 76.2 90)
+			(at 210.185 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9444,6 +9444,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -10013,10 +10014,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a8570c7a-7e38-41ab-ad81-491d56313d67")
 		(property "Reference" "TP1"
-			(at 104.14 55.1179 0)
+			(at 102.87 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10031,6 +10031,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
