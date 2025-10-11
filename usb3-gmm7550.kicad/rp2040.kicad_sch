@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "GMM-7550 USB3 Adapter")
-		(date "2025-10-01")
-		(rev "0.9.5")
+		(date "2025-10-10")
+		(rev "1.0")
 	)
 	(lib_symbols
 		(symbol "+5V_1"
@@ -13906,7 +13906,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX25R1635FZU"
+		(property "Value" "MX25R1635FZUIH0"
 			(at 88.9 121.92 0)
 			(effects
 				(font
@@ -15511,7 +15511,7 @@
 				)
 			)
 		)
-		(property "Value" "AP7330"
+		(property "Value" "AP7330D"
 			(at 58.42 171.45 0)
 			(effects
 				(font
@@ -16318,7 +16318,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LM4040DBZ-3"
+		(property "Value" "LM4040A30IDBZ"
 			(at 130.175 152.4 90)
 			(effects
 				(font
@@ -17533,7 +17533,7 @@
 				)
 			)
 		)
-		(property "Value" "AP7330"
+		(property "Value" "AP7330D"
 			(at 58.42 144.78 0)
 			(effects
 				(font

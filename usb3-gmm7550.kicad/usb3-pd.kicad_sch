@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "GMM-7550 USB3 Adapter")
-		(date "2025-10-01")
-		(rev "0.9.5")
+		(date "2025-10-10")
+		(rev "1.0")
 	)
 	(lib_symbols
 		(symbol "+5V_1"
@@ -9744,8 +9744,8 @@
 				)
 			)
 		)
-		(property "Value" "74LVC1G06"
-			(at 186.69 128.27 0)
+		(property "Value" "SN74LVC1G06DBV"
+			(at 189.23 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)

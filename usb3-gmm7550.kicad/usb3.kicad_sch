@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "GMM-7550 USB3 Adapter")
-		(date "2025-10-01")
-		(rev "0.9.5")
+		(date "2025-10-10")
+		(rev "1.0")
 	)
 	(lib_symbols
 		(symbol "+5V_1"
@@ -13095,7 +13095,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PESD752DCKR"
+		(property "Value" "ESD752DCKR"
 			(at 107.95 31.7499 90)
 			(effects
 				(font
@@ -13436,7 +13436,7 @@
 				)
 			)
 		)
-		(property "Value" "AP7330"
+		(property "Value" "AP7330D"
 			(at 101.6 154.94 0)
 			(effects
 				(font
