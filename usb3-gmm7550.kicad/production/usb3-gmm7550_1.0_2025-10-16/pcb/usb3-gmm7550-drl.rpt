@@ -1,0 +1,33 @@
+Drill report for usb3-gmm7550.kicad_pcb
+Created on 2025-10-16T10:38:19+0200
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'usb3-gmm7550-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.200mm  0.0079"  (274 holes)
+    T2  0.200mm  0.0079"  (11 holes)
+    T3  0.300mm  0.0118"  (158 holes)
+    T4  0.600mm  0.0236"  (8 holes)  (with 8 slots)
+    T5  1.020mm  0.0402"  (2 holes)
+
+    Total plated holes count 453
+
+
+Drill file 'usb3-gmm7550-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.650mm  0.0256"  (2 holes)
+    T2  0.830mm  0.0327"  (2 holes)
+    T3  1.230mm  0.0484"  (2 holes)
+    T4  3.000mm  0.1181"  (1 hole)
+    T5  3.200mm  0.1260"  (2 holes)
+
+    Total unplated holes count 9
