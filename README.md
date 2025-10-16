@@ -1,10 +1,11 @@
 # CologneChip GateMate FPGA Module: GMM-7550
 
-**August 2025 Update**
+**October 2025 Update**
 
-KiCad 3D render of USB 3 Adapter board (preliminary placement):
+USB 3 adapter board is ready for production after the schematic changes and layout.
+KiCad 3D render of the board:
 
-![USB3 Adapter board (KiCad 3D render)](./doc/usb3-gmm7550_preview_2025-08-17.png)
+![USB3 Adapter board (KiCad 3D render)](./doc/usb3-gmm7550_1.0_2025-10-10.png)
 
 **July 2025 Update**
 
