@@ -2,8 +2,9 @@
 
 **October 2025 Update**
 
-USB 3 adapter board is ready for production after the schematic changes and layout.
-KiCad 3D render of the board:
+USB 3 adapter board is ready for production after the
+[schematic](./doc/USB3-GMM-7550_1.0_2025-10-10.pdf)
+changes and layout. KiCad 3D render of the board:
 
 ![USB3 Adapter board (KiCad 3D render)](./doc/usb3-gmm7550_1.0_2025-10-10.png)
 
