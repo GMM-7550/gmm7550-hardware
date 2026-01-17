@@ -1,12 +1,18 @@
 # CologneChip GateMate FPGA Module: GMM-7550
 
+**January 2026 Update**
+
+USB 3 adapter board is out of production, RP2040 firmware
+is running, and basic functionality is tested -- no hardware
+issues discovered.
+
+![USB3 Adapter board](./doc/usb3-gmm7550.jpg)
+
 **October 2025 Update**
 
 USB 3 adapter board is ready for production after the
 [schematic](./doc/USB3-GMM-7550_1.0_2025-10-10.pdf)
 changes and layout. KiCad 3D render of the board:
-
-![USB3 Adapter board (KiCad 3D render)](./doc/usb3-gmm7550_1.0_2025-10-10.png)
 
 **July 2025 Update**
 
